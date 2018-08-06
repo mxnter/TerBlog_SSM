@@ -27,7 +27,7 @@ public class IndexController {
         model.addAttribute("indexDaos",indexDaos); // 传参数给前端
         return "index";
     }
-    @RequestMapping(value = "*", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.GET)
     public String all(Model model) {
         List<Index> indexDaos = indexService.list();
         log.info("输出参数：" + indexDaos);
