@@ -16,6 +16,15 @@
     <title>TerBlog</title>
 </head>
 <body>
+<center>
+    <h2>Ter Blog</h2>
+
+    <br>
+    ${login}
+    <br>
+    <br>
+    <br>
+</center>
 <table align='center' border='1' cellspacing='0'>
     <tr>
         <td>id</td>
@@ -27,7 +36,7 @@
 
 
     </tr>
-    <c:forEach items="${indexDaos}" var="c" varStatus="st">
+    <c:forEach items="${indexs}" var="c" varStatus="st">
         <tr>
             <td>${c.id}</td>
             <td>${c.title}</td>

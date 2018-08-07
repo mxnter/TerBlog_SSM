@@ -16,7 +16,6 @@ public class IndexImpl implements IndexService {
     IndexDao indexDao;
 
     public List<Index> list(){
-        log.info("返回：" + indexDao.list());
         return indexDao.list();
     }
 

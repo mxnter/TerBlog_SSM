@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 import org.apache.log4j.Logger;
 
@@ -20,21 +22,45 @@ public class IndexController {
     @Resource
     IndexService indexService;
 
-    @RequestMapping(value = "index", method = RequestMethod.GET)
+    @RequestMapping(value = "i", method = RequestMethod.GET)
     public String index(Model model) {
-        List<Index> indexDaos = indexService.list();
-        log.info("输出参数：" + indexDaos);
-        model.addAttribute("indexDaos",indexDaos); // 传参数给前端
-        return "index";
-    }
-    @RequestMapping(value = "", method = RequestMethod.GET)
-    public String all(Model model) {
-        List<Index> indexDaos = indexService.list();
-        log.info("输出参数：" + indexDaos);
-        model.addAttribute("indexDaos",indexDaos); // 传参数给前端
+        List<Index> indexs = indexService.list();
+        log.info("输出参数：" + indexs);
+        model.addAttribute("indexs",indexs); // 传参数给前端
         return "index";
     }
 
+
+    @RequestMapping(value = "", method = RequestMethod.GET)
+    public String all(Model model,HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        if(session.isNew()){
+            session.setAttribute("isLogin","n");
+        }
+
+
+        if(session.getAttribute("isLogin").equals("y") && !session.isNew()){
+            log.info("输出参数：" + session.getAttribute("username"));
+            model.addAttribute("login","<a href=\"user\">欢迎："+session.getAttribute("username").toString()+"</a>　　　　<a href=\"logout\">退出</a>");
+           // model.addAttribute("login","<a href=\"login\">登陆</a>");
+
+        }else{
+            model.addAttribute("login","<a href=\"login\">登陆</a>　　　　<a href=\"#\">注册</a>");
+        }
+
+
+        List<Index> indexs = indexService.list();
+        log.info("输出参数：" + indexs);
+        model.addAttribute("indexs",indexs); // 传参数给前端
+        return "index";
+    }
+
+    @RequestMapping(value = "logout", method = RequestMethod.GET)
+    public String logout(Model model,HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        session.invalidate();
+        return "redirect:./";
+    }
 
 
 
