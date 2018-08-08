@@ -66,7 +66,7 @@ public class IndexController {
         HttpSession session = request.getSession();
 
         if(session.isNew() || session.getAttribute("isLogin").equals("n") )
-            return "login";
+            return "redirect:login";
 
         return "admin";
     }
