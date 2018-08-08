@@ -26,4 +26,6 @@ public class UserImpl implements UserService {
         log.info("asdadasd：" +username);
 
         return userDao.findInformationByUserName(username);}
+
+    public List<User> findInformationByUserId(String userid){ return userDao.findInformationByUserId(userid);}
 }

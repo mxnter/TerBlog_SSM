@@ -72,6 +72,7 @@ public class LoginController {
 
             String administrator = login.getAdministrator();
             session.setAttribute("username",login.getUsername());
+            session.setAttribute("userid",login.getId());
             session.setAttribute("isLogin","y");
             //session.setAttribute("users",users);
             log.info("输出参数：" + login);

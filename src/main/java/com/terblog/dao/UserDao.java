@@ -13,4 +13,6 @@ public interface UserDao {
     List<User> findInformationByUserName(User param);
 
     List<User> findInformationByUserName(String username);
+
+    List<User> findInformationByUserId(String userid);
 }

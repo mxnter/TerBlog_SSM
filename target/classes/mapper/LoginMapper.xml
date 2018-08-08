@@ -15,6 +15,6 @@
 
 
     <select id="findInformationByUserName" resultType="com.terblog.model.Login">
-        select * from user where username = '${username}' and password = '${password}';
+        select * from user where username = #{username} and password = #{password};
     </select>
 </mapper>

@@ -10,6 +10,9 @@
 
 
     <select id="findInformationByUserName" resultType="com.terblog.model.User">
-        select * from user where username = '${username}'
+        select * from user where username = #{username}
+    </select>
+    <select id="findInformationByUserId" resultType="com.terblog.model.User">
+        select * from user where id = #{userid}
     </select>
 </mapper>

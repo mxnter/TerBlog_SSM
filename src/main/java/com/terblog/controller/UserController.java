@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 /*
-*   @question 这里有个坑，无法读取用户数据
+*   @question 问题解决
 *   @data 2018年8月7日
 *   @time 16点20分
 *   @author mxnter
@@ -35,9 +35,10 @@ public class UserController {
 
         if(session.getAttribute("isLogin").equals("y") && !session.isNew()){
             username=session.getAttribute("username").toString();
-            log.info("输如参数2：" +username);
+            String userid =session.getAttribute("userid").toString();
+            log.info("输如参数2：" +username+"  id："+userid);
             List<User> users = userService.findInformationByUserName(username);
-
+            log.info("用户信息：" +users);
             model.addAttribute("users",users);
             return "user";
 

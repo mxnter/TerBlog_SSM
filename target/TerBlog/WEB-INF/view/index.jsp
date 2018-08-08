@@ -38,7 +38,7 @@
     </tr>
     <c:forEach items="${indexs}" var="c" varStatus="st">
         <tr>
-            <td>${c.id}</td>
+            <td><a href="article?id=${c.id}">${c.id}</a></td>
             <td>${c.title}</td>
             <td>${c.content}</td>
             <td>${c.data}</td>

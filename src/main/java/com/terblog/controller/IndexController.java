@@ -45,7 +45,7 @@ public class IndexController {
            // model.addAttribute("login","<a href=\"login\">登陆</a>");
 
         }else{
-            model.addAttribute("login","<a href=\"login\">登陆</a>　　　　<a href=\"#\">注册</a>");
+            model.addAttribute("login","<a href=\"login\">登陆</a>　　　　<a href=\"register\">注册</a>");
         }
 
 
@@ -60,6 +60,12 @@ public class IndexController {
         HttpSession session = request.getSession();
         session.invalidate();
         return "redirect:./";
+    }
+    @RequestMapping(value = "admin", method = RequestMethod.GET)
+    public String admin(Model model,HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        session.invalidate();
+        return "admin";
     }
 
 
