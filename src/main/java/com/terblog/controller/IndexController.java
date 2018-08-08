@@ -64,7 +64,10 @@ public class IndexController {
     @RequestMapping(value = "admin", method = RequestMethod.GET)
     public String admin(Model model,HttpServletRequest request) {
         HttpSession session = request.getSession();
-        session.invalidate();
+
+        if(session.isNew() || session.getAttribute("isLogin").equals("n") )
+            return "login";
+
         return "admin";
     }
 

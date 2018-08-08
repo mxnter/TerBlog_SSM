@@ -1,0 +1,227 @@
+﻿/* Mxnter Simple manufacture
+  June 6, 2018
+  Study and use, prohibit commercial use
+  Thanks very much
+
+*/
+
+
+html,body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+  }
+  p,h1{
+
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+  }
+
+  a {
+    color: #778899;
+    text-decoration:none
+  }
+
+  img{
+  width: auto;
+  height: auto;
+  /*max-width: 100%;*/
+  max-height: 100%;
+  }
+
+.top {
+
+  width:100%;
+  height:90%;
+  margin: 0 auto;
+  border:1px solid #D8BFD8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.top_z{
+  width: 50%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  margin: 0 auto;
+  padding: 20px 20px 20px 40px;
+}
+.top_img{
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  overflow:hidden
+}
+.top_a{
+
+
+  padding: 10% 5% 5% 8%;
+
+}
+.top p,h1{
+  width: 75%;
+  height: auto;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden;
+}
+
+
+.left {
+
+  width:100%;
+  height:60%;
+  margin: 0 auto;
+  border:1px solid #D8BFD8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.left_z{
+  width: 65%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  margin: 0 auto;
+  padding: 20px 20px 20px 40px;
+}
+.left_img{
+  width: 35%;
+  height: 100%;
+  right: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  overflow:hidden
+}
+.left_a{
+  padding: 10% 5% 5% 8%;
+
+}
+.left p,h1{
+  width: 75%;
+  height: auto;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden;
+}
+.ringh {
+
+  width:100%;
+  height:60%;
+  margin: 0 auto;
+  border:1px solid #D8BFD8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.ringh_z{
+  width: 65%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  margin: 0 auto;
+  padding: 20px 20px 20px 40px;
+}
+.ringh_img{
+  width: 35%;
+  height: 100%;
+  right: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  overflow:hidden
+}
+.ringh_a{
+  padding: 10% 5% 5% 8%;
+
+}
+.right p,h1{
+  width: 75%;
+  height: auto;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden;
+  font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+
+.bottom {
+
+  width:100%;
+  height:50%;
+  margin: 0 auto;
+  border:1px solid #D8BFD8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: center;
+
+}
+.bottom_z{
+  width: 100%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  margin: 0 auto;
+  padding: 20px 20px 20px 40px;
+}
+.bottom_img{
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+
+  box-sizing: border-box;
+  float: left;
+  overflow:hidden
+}
+.bottom_a{
+
+
+  padding: 150px 20px 20px 40px;
+
+}
+.bottom p,h1{
+  width: 100%;
+  height: auto;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden;
+}
+
+.tail {
+
+  width:100%;
+  height:auto;
+  margin: 0 auto;
+  border:1px solid #D8BFD8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: center;
+
+}

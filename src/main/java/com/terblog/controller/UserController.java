@@ -33,19 +33,17 @@ public class UserController {
 
         HttpSession session = request.getSession();
 
-        if(session.getAttribute("isLogin").equals("y") && !session.isNew()){
-            username=session.getAttribute("username").toString();
-            String userid =session.getAttribute("userid").toString();
-            log.info("输如参数2：" +username+"  id："+userid);
-            List<User> users = userService.findInformationByUserName(username);
-            log.info("用户信息：" +users);
-            model.addAttribute("users",users);
-            return "user";
-
-        }else{
+        if(session.isNew() || session.getAttribute("isLogin").equals("n") )
             return "login";
-        }
 
+
+        username=session.getAttribute("username").toString();
+        String userid =session.getAttribute("userid").toString();
+        log.info("输如参数2：" +username+"  id："+userid);
+        List<User> users = userService.findInformationByUserName(username);
+        log.info("用户信息：" +users);
+        model.addAttribute("users",users);
+        return "user";
 
     }
 
