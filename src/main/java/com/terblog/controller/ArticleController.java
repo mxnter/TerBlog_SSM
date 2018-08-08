@@ -26,7 +26,7 @@ public class ArticleController {
         String id=request.getParameter("id");
 
         List<Article> articles = articleService.findInforArticleById(id);
-        log.info("查看文章："+articles);
+        log.info("[输出数据] 查看文章------>"+articles);
 
         model.addAttribute("articles",articles);
 

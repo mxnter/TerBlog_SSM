@@ -25,7 +25,7 @@ public class IndexController {
     @RequestMapping(value = "i", method = RequestMethod.GET)
     public String index(Model model) {
         List<Index> indexs = indexService.list();
-        log.info("输出参数：" + indexs);
+        log.info("[输入数据] 全部文章------> " + indexs);
         model.addAttribute("indexs",indexs); // 传参数给前端
         return "index";
     }
@@ -40,7 +40,7 @@ public class IndexController {
 
 
         if(session.getAttribute("isLogin").equals("y") && !session.isNew()){
-            log.info("输出参数：" + session.getAttribute("username"));
+            log.info("[输入数据] username------> " + session.getAttribute("username"));
             model.addAttribute("login","<a href=\"user\">欢迎："+session.getAttribute("username").toString()+"</a>　　　　<a href=\"logout\">退出</a>");
            // model.addAttribute("login","<a href=\"login\">登陆</a>");
 
@@ -50,7 +50,7 @@ public class IndexController {
 
 
         List<Index> indexs = indexService.list();
-        log.info("输出参数：" + indexs);
+        log.info("[输出数据] 文章展示------> " + indexs);
         model.addAttribute("indexs",indexs); // 传参数给前端
         return "index";
     }

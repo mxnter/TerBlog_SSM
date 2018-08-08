@@ -23,7 +23,7 @@ public class UserImpl implements UserService {
         return userDao.findInformationByUserName(param);
     }
     public List<User> findInformationByUserName(String username){
-        log.info("asdadasd：" +username);
+
 
         return userDao.findInformationByUserName(username);}
 

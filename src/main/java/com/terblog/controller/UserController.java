@@ -39,9 +39,9 @@ public class UserController {
 
         username=session.getAttribute("username").toString();
         String userid =session.getAttribute("userid").toString();
-        log.info("输如参数2：" +username+"  id："+userid);
+        log.info("[输入信息] 获取用户ID------> username：" +username+"  id："+userid);
         List<User> users = userService.findInformationByUserName(username);
-        log.info("用户信息：" +users);
+        log.info("[输出信息] 返回用户数据------>" +users);
         model.addAttribute("users",users);
         return "user";
 

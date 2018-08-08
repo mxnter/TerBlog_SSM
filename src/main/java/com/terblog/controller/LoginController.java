@@ -48,13 +48,14 @@ public class LoginController {
 
     @RequestMapping(value = "", method = RequestMethod.POST)
     public String login(Model model, Login param, HttpServletRequest request,Map<String, Object> map) throws UnsupportedEncodingException {
-        log.info("输如参数：" +param);
+        log.info("[输入数据] 登陆信息------>" +param);
         List<Login> logins = loginService.findInformationByUserName(param);
 
         HttpSession session = request.getSession();
         int length = logins.size();
 
         if (length == 0){
+            log.info("[提示信息] 登陆失败------> 用户名或密码错误" );
             String	msg="用户名密码输入错误";
             map.put("msg", msg);
             // 用户名密码输入错误
@@ -75,8 +76,8 @@ public class LoginController {
             session.setAttribute("userid",login.getId());
             session.setAttribute("isLogin","y");
             //session.setAttribute("users",users);
-            log.info("输出参数：" + login);
-            log.info("输出参数：" + session.getAttribute("username"));
+            log.info("[输出数据] 查看登陆信息------>" + login);
+            log.info("[输出数据] 查看会话userame------>" + session.getAttribute("username"));
             if(administrator.equals("1")){
                 return "redirect:admin";
             }else{
