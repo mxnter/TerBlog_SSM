@@ -47,9 +47,11 @@
         <input lay-verify="required" type="password" placeholder="密码" name="password" class="layui-input">
         <hr class="hr15">
         <input class="loginin" value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
-        <hr class="hr20" >
+        <hr class="hr15" >
+        <input class="loginin" value="注册"  style="width:100%;" type="button" onclick="window.location.href='register'">
+        <hr class="hr15" >
         <div>
-            ${param.msg}
+           <center><font color="red"> ${msg}</font></center>
         </div>
     </form>
 </div>

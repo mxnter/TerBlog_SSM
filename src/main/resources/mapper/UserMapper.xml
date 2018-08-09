@@ -15,4 +15,12 @@
     <select id="findInformationByUserId" resultType="com.terblog.model.User">
         select * from user where id = #{userid}
     </select>
+    <select id="allUser" resultType="com.terblog.model.User">
+        select * from user where state = 0
+    </select>
+
+    <select id="forbiddenUser" resultType="com.terblog.model.User">
+        select * from user where state = 1
+    </select>
+
 </mapper>

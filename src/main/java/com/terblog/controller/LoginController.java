@@ -57,16 +57,19 @@ public class LoginController {
         if (length == 0){
             log.info("[提示信息] 登陆失败------> 用户名或密码错误" );
             String	msg="用户名密码输入错误";
-            map.put("msg", msg);
-            // 用户名密码输入错误
-            //？？？？？？？？前台提示？？？？？？？
-            request.setCharacterEncoding("UTF-8");
-            request.setAttribute("msg", "111111");
-            return "redirect:login.jsp";
+            model.addAttribute("msg",msg);
+            return "login";
         }else {
-
-
             Login login=logins.get(0);
+            if(login.getState()==1){
+                log.info("[提示信息] 登陆失败------> 用户名或密码错误" );
+                String	msg="用户已被禁用";
+                model.addAttribute("msg",msg);
+                return "login";
+            }
+
+
+
 
             //List<User> users = userService.findInformationByUserName(login.getUsername());
 
@@ -74,11 +77,12 @@ public class LoginController {
             String administrator = login.getAdministrator();
             session.setAttribute("username",login.getUsername());
             session.setAttribute("userid",login.getId());
+            session.setAttribute("administrator",login.getAdministrator());
             session.setAttribute("isLogin","y");
             //session.setAttribute("users",users);
             log.info("[输出数据] 查看登陆信息------>" + login);
             log.info("[输出数据] 查看会话userame------>" + session.getAttribute("username"));
-            if(administrator.equals("1")){
+            if(administrator.equals("admin")){
                 return "redirect:admin";
             }else{
                 return "redirect:./";

@@ -28,4 +28,9 @@ public class UserImpl implements UserService {
         return userDao.findInformationByUserName(username);}
 
     public List<User> findInformationByUserId(String userid){ return userDao.findInformationByUserId(userid);}
+
+    public List<User> allUser(){return userDao.allUser();}
+
+    public List<User> forbiddenUser(){return userDao.forbiddenUser();}
+
 }

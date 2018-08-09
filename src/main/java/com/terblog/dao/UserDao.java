@@ -15,4 +15,9 @@ public interface UserDao {
     List<User> findInformationByUserName(String username);
 
     List<User> findInformationByUserId(String userid);
+
+    List<User> allUser();
+
+    List<User> forbiddenUser();
+
 }

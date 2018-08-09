@@ -9,18 +9,37 @@
 
 <html>
 <head>
-    <title>admin</title>
+    <title>管理系统 - TerBlog</title>
 </head>
 <body>
 <%@include file="main.jsp"%>
 <div class="breadcrumbs " id="breadcrumbs">
     <ul class="breadcrumb">
-        <li>信息</li>
-        <li class="active">提示</li>
+
+        <li><font color="red"> [${inform.title}]  ${inform.content}</font> </li>
     </ul>
 </div>
+<div class="breadcrumbs " id="breadcrumbs">
+    <ul class="breadcrumb">
+        用户总数
+        [${useramount}]　　　　　　
+        文章总数
+        [${articleamount}]
+    </ul>
+</div>
+<div class="breadcrumbs " id="breadcrumbs"><p>
+    关于TerBlog<br>
+    首页来源于 Mxnter Group<br>
+    登陆来源于 WangEn 的开源项目 <a href="https://github.com/WangEn/WeAdmin">WeAdmin</a><br>
+    后台来源于 mnnyang 的开源项目 <a href="https://github.com/mnnyang/html5_css_admin">html5_css_admin</a><br>
+</p>
 
-<h2>欢迎进入后台，当前后台正在开发中请返回首页</h2>
+</div>
+
+
+
+
+
 
 <%@include file="footer.jsp"%>
 </body>

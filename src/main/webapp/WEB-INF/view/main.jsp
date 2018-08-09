@@ -29,6 +29,7 @@
 <body>
 
 <div id="main-page">
+
     <div id="sidebar" class="sidebar-open">
         <ul>
             <li>
@@ -40,25 +41,26 @@
             <li>
                 <div class="menu-item">
                     <span class="menu-icon fa fa-envelope-open"></span>
-                    <span class="menu-title">返回首页</span>
+                    <span class="menu-title">文章</span>
                     <span class="menu-ind fa fa-chevron-right"></span>
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}">返回</a></li>
-                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}">返回二</a></li>
-                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}">返回三</a></li>
+                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}/admin/">新增-未完成</a></li>
+                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}/admin/Draft">草稿</a></li>
+                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}/admin/Article">管理</a></li>
+                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}/admin/Recycled">回收</a></li>
                 </ul>
             </li>
             <li>
                 <div class="menu-item">
                     <span class="menu-icon fa fa-shopping-cart"></span>
-                    <span class="menu-title">菜单二</span>
+                    <span class="menu-title">用户</span>
                     <span class="menu-ind fa fa-chevron-right"></span>
                 </div>
                 <ul class="sub-menu">
-                    <li><a class="spec-menu-item" href="#">子菜单一</a></li>
-                    <li><a class="spec-menu-item" href="#">子菜单二</a></li>
-                    <li><a class="spec-menu-item" href="#">子菜单三</a></li>
+                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}/admin/User">管理</a></li>
+                    <li><a class="spec-menu-item" href="${pageContext.request.contextPath}/admin/ForbiddenUser">禁用</a></li>
+                    <li><a class="spec-menu-item" href="#">新增-未完成</a></li>
                 </ul>
             </li>
             <li>
@@ -86,6 +88,9 @@
                 </ul>
             </li>
         </ul>
+
+
+
     </div>
 
     <div class="section">
@@ -94,13 +99,13 @@
 
             <li class="dropdown user-info hover-bg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <span>欢迎您 <%=username%> （先生/女士）</span>
+                    <span>管理员 [ <%=username%> ] 您好.</span>
                    <!-- <img src="img/pic.jpg" alt="头像"/>-->
                 </a>
                 <ul class="dropdown-menu">
                     <li><a href="${pageContext.request.contextPath}/user">个人信息</a></li>
                     <li><a href="#">修改密码</a></li>
-                    <li><a href="#">退出</a></li>
+                    <li><a href="${pageContext.request.contextPath}/logout">退出</a></li>
                 </ul>
             </li>
         </header>

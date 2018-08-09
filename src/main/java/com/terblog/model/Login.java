@@ -12,6 +12,7 @@ public class Login {
     private String email;
     private String phonenumber;
     private String signature;
+    private int state;
 
     public int getId() {
         return id;
@@ -101,6 +102,15 @@ public class Login {
         this.signature = signature;
     }
 
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
+
     @Override
     public String toString() {
         return "Login{" +
@@ -115,6 +125,7 @@ public class Login {
                 ", email='" + email + '\'' +
                 ", phonenumber='" + phonenumber + '\'' +
                 ", signature='" + signature + '\'' +
+                ", state='" + state + '\'' +
                 '}';
     }
 }

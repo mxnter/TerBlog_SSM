@@ -8,4 +8,22 @@
     <select id="findInforArticleById" resultType="com.terblog.model.Article">
         select * from article where id = #{id}
     </select>
+<!--查询正在文章 state = 0 -->
+    <select id="allArticle" resultType="com.terblog.model.Article">
+        select * from article where state = 0
+    </select>
+<!--查询回收站文章 state = 1 -->
+    <select id="RecycledArticle" resultType="com.terblog.model.Article">
+        select * from article where state = 1
+    </select>
+<!--查询草稿文章 state = 2 -->
+    <select id="DraftArticle" resultType="com.terblog.model.Article">
+        select * from article where state = 2
+    </select>
+    
+    <!--放入回收站-->
+    <update id="UpRecycledArticle" >
+        update article set state = 1 where id = #{ArticlesId}
+    </update>
+
 </mapper>

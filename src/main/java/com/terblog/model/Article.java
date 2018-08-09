@@ -8,6 +8,7 @@ public class Article {
     private  String data;
     private  String time;
     private  String bz;
+    private int state;
 
     public int getId() {
         return id;
@@ -57,6 +58,15 @@ public class Article {
         this.bz = bz;
     }
 
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int recycled) {
+        this.state = state;
+    }
+
+
     @Override
     public String toString() {
         return "Article{" +
@@ -66,6 +76,7 @@ public class Article {
                 ", data='" + data + '\'' +
                 ", time='" + time + '\'' +
                 ", bz='" + bz + '\'' +
+                ", state=" + state +
                 '}';
     }
 }

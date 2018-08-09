@@ -40,9 +40,17 @@ public class IndexController {
 
 
         if(session.getAttribute("isLogin").equals("y") && !session.isNew()){
-            log.info("[输入数据] username------> " + session.getAttribute("username"));
-            model.addAttribute("login","<a href=\"user\">欢迎："+session.getAttribute("username").toString()+"</a>　　　　<a href=\"logout\">退出</a>");
-           // model.addAttribute("login","<a href=\"login\">登陆</a>");
+
+            if(session.getAttribute("administrator").equals("admin")){
+                log.info("[输入数据] username------> " + session.getAttribute("username"));
+                model.addAttribute("login","<a href=\"user\">欢迎："+session.getAttribute("username").toString()+"</a>　　　　　<a href=\"admin\">管理</a>　　　　　<a href=\"logout\">退出</a>");
+
+            }else{
+                log.info("[输入数据] username------> " + session.getAttribute("username"));
+                model.addAttribute("login","<a href=\"user\">欢迎："+session.getAttribute("username").toString()+"</a>　　　　<a href=\"logout\">退出</a>");
+                // model.addAttribute("login","<a href=\"login\">登陆</a>");
+            }
+
 
         }else{
             model.addAttribute("login","<a href=\"login\">登陆</a>　　　　<a href=\"register\">注册</a>");
@@ -61,15 +69,7 @@ public class IndexController {
         session.invalidate();
         return "redirect:./";
     }
-    @RequestMapping(value = "admin", method = RequestMethod.GET)
-    public String admin(Model model,HttpServletRequest request) {
-        HttpSession session = request.getSession();
 
-        if(session.isNew() || session.getAttribute("isLogin").equals("n") )
-            return "redirect:login";
-
-        return "admin";
-    }
 
 
 
