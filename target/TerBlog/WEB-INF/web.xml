@@ -1,9 +1,9 @@
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+    <display-name>Archetype Created Web Application</display-name>
     <welcome-file-list>
         <welcome-file>index</welcome-file>
     </welcome-file-list>
@@ -42,6 +42,14 @@
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/static</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/details</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/register</url-pattern>
     </servlet-mapping>
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -83,8 +91,6 @@
         <servlet-name>spring-mvc</servlet-name>     <!-- 这里的名字要和上面的servlet-name统一 -->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
-
 
 
 </web-app>

@@ -12,33 +12,66 @@
 <html>
 <head>
     <title>文章</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Loswkl Me - Loswkl Group" />
+    <meta name="keywords" content="Loswkl Me - Loswkl Group" />
+    <!--[if lte IE 8]><script src="${pageContext.request.contextPath}/details/css/ie/html5shiv.js"></script><![endif]-->
+    <script src="${pageContext.request.contextPath}/details/js/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/details/js/skel.min.js"></script>
+    <script src="${pageContext.request.contextPath}/details/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/details/css/skel.css" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/details/css/style.css" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/details/css/style-wide.css" />
+
+
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="${pageContext.request.contextPath}/details/css/ie/v8.css" /><![endif]-->
 </head>
 <body>
 
 
-<table align='center' border='1' cellspacing='0'>
-    <tr>
-        <td>id</td>
-        <td>title</td>
-        <td>content</td>
-        <td>data</td>
-        <td>time</td>
-        <td>bz</td>
 
 
-    </tr>
-    <c:forEach items="${articles}" var="c" varStatus="st">
-        <tr>
-            <td><a href="article?id=${c.id}">${c.id}</a></td>
-            <td>${c.title}</td>
-            <td>${c.content}</td>
-            <td>${c.data}</td>
-            <td>${c.time}</td>
-            <td>${c.bz}</td>
+<!-- Header -->
+<div id="header">
+    <!--<span class="logo icon fa-paper-plane-o"></span>-->
+    <h1>${article.title}</h1>
+    <h6>${article.data} ${article.time}</h6>
 
-        </tr>
-    </c:forEach>
-</table>
+</div>
 
+<!-- Main -->
+<div id="main">
+
+    <header class="major container small">
+        <h4>${article.content}
+        </h4>
+
+        <!-- 	break the universe
+<ul class="actions">
+            <li><a href="https://loswkl.win/?p=154" class="button">更多详情</a></li>
+        </ul>
+            <p>Tellus erat mauris ipsum fermentum<br />
+            etiam vivamus nunc nibh morbi.</p>-->
+
+
+
+    </header>
+</div>
+<ul class="actions">
+    <li><a href="#" class="button">返回首页</a></li>
+</ul>
+
+<!-- 底部开始 -->
+<div class="footer">
+    <div class="copyright">
+        <center>Copyright © 2018 <a href="https://Mxnter.github.io/" target="_blank" title="nter">M**ter</a>. All rights
+            reserved. Hosted in GitHub
+        </center>
+    </div>
+</div>
 </body>
 </html>
+

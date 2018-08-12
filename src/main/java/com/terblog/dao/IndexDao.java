@@ -24,5 +24,4 @@ public interface IndexDao {
     public List<Index> ll();
 
 
-
 }

@@ -1,8 +1,6 @@
 package com.terblog.service.impl;
 
-import com.terblog.dao.IndexDao;
 import com.terblog.dao.LoginDao;
-import com.terblog.model.Index;
 import com.terblog.model.Login;
 import com.terblog.service.LoginService;
 import org.apache.log4j.Logger;
@@ -14,14 +12,15 @@ import java.util.List;
 @Service
 public class LoginImpl implements LoginService {
 
-    private Logger log = Logger.getLogger(this.getClass().getName());
     @Resource
     LoginDao loginDao;
+    private Logger log = Logger.getLogger(this.getClass().getName());
 
-    public List<Login> findInformationByUserName(){
+    public List<Login> findInformationByUserName() {
         return loginDao.findInformationByUserName();
     }
-    public List<Login> findInformationByUserName(Login param){
+
+    public List<Login> findInformationByUserName(Login param) {
         return loginDao.findInformationByUserName(param);
     }
 }

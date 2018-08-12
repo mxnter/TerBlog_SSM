@@ -2,7 +2,6 @@ package com.terblog.service.impl;
 
 
 import com.terblog.dao.RegisterDao;
-
 import com.terblog.model.Register;
 import com.terblog.service.RegisterService;
 import org.apache.log4j.Logger;
@@ -14,10 +13,12 @@ import java.util.List;
 @Service
 public class RegisterImpl implements RegisterService {
 
-    private Logger log = Logger.getLogger(this.getClass().getName());
     @Resource
     RegisterDao registerDao;
+    private Logger log = Logger.getLogger(this.getClass().getName());
 
-    public List<Register> Register(){return registerDao.Register();}
+    public List<Register> Register() {
+        return registerDao.Register();
+    }
 
 }

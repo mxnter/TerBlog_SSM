@@ -13,13 +13,14 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
+
 /*
-*   @question 问题解决
-*   @data 2018年8月7日
-*   @time 16点20分
-*   @author mxnter
-*
-* */
+ *   @question 问题解决
+ *   @data 2018年8月7日
+ *   @time 16点20分
+ *   @author mxnter
+ *
+ * */
 @Controller
 @RequestMapping(value = "user")
 public class UserController {
@@ -29,22 +30,32 @@ public class UserController {
 
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String user(Model model,HttpServletRequest request,String username) {
+    public String user(Model model, HttpServletRequest request, String username) {
 
         HttpSession session = request.getSession();
 
-        if(session.isNew() || session.getAttribute("isLogin").equals("n") )
+        if (session.isNew() || session.getAttribute("isLogin").equals("n"))
             return "login";
 
 
-        username=session.getAttribute("username").toString();
-        String userid =session.getAttribute("userid").toString();
-        log.info("[输入信息] 获取用户ID------> username：" +username+"  id："+userid);
+        username = session.getAttribute("username").toString();
+        String userid = session.getAttribute("userid").toString();
+        log.info("[输入信息] 获取用户ID------> username：" + username + "  id：" + userid);
         List<User> users = userService.findInformationByUserName(username);
-        log.info("[输出信息] 返回用户数据------>" +users);
-        model.addAttribute("users",users);
+        log.info("[输出信息] 返回用户数据------>" + users);
+        model.addAttribute("users", users);
         return "user";
 
     }
+
+    @RequestMapping(value = "forget", method = RequestMethod.GET)
+    public String user_forget(Model model, HttpServletRequest request) {
+
+        String msg = "未开启，忘记密码功能！";
+        model.addAttribute("msg", msg);
+        return "hint";
+
+    }
+
 
 }

@@ -6,7 +6,6 @@
 <mapper namespace="com.terblog.dao.RegisterDao">
 
 
-
     <select id="zc" resultType="com.terblog.model.Register">
         select * from user where username = #{username} and password = #{password};
     </select>

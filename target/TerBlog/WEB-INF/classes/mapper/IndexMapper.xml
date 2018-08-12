@@ -6,6 +6,6 @@
 <mapper namespace="com.terblog.dao.IndexDao">
 
     <select id="list" resultType="com.terblog.model.Index">
-        select * from article
+        select * from article where state = 0
     </select>
 </mapper>

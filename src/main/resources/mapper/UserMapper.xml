@@ -6,9 +6,6 @@
 <mapper namespace="com.terblog.dao.UserDao">
 
 
-
-
-
     <select id="findInformationByUserName" resultType="com.terblog.model.User">
         select * from user where username = #{username}
     </select>
@@ -22,5 +19,27 @@
     <select id="forbiddenUser" resultType="com.terblog.model.User">
         select * from user where state = 1
     </select>
+
+    <!--启用用户-->
+    <update id="StartUser" parameterType="com.terblog.model.User">
+        update user set state = 0 where id = #{UserId}
+    </update>
+
+    <!--禁用用户-->
+    <update id="BlockUser" parameterType="com.terblog.model.User">
+        update user set state = 1 where id = #{UserId}
+    </update>
+
+    <!--删除用户-->
+    <delete id="DeleteUser" parameterType="com.terblog.model.User">
+        delete from user where id = #{UserId} and state = 1
+    </delete>
+
+
+    <!--修改密码-->
+    <update id="ChangePassword" parameterType="com.terblog.model.User">
+        update user set password = '${password}' where username = '${username}' and state = 0
+    </update>
+
 
 </mapper>

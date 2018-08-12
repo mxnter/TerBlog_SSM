@@ -2,12 +2,12 @@ package com.terblog.model;
 
 public class Article {
 
-    private  int id;
-    private  String title;
-    private  String content;
-    private  String data;
-    private  String time;
-    private  String bz;
+    private int id;
+    private String title;
+    private String content;
+    private String data;
+    private String time;
+    private String bz;
     private int state;
 
     public int getId() {

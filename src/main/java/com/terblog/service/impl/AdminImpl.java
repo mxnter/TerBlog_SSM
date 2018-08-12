@@ -1,7 +1,6 @@
 package com.terblog.service.impl;
 
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
 import com.terblog.dao.AdminDao;
 import com.terblog.model.Inform;
 import com.terblog.service.AdminService;
@@ -12,14 +11,20 @@ import javax.annotation.Resource;
 
 @Service
 public class AdminImpl implements AdminService {
-    private Logger log = Logger.getLogger(this.getClass().getName());
     @Resource
     AdminDao adminDao;
+    private Logger log = Logger.getLogger(this.getClass().getName());
 
-    public String useramount(){return adminDao.useramount();}
+    public String useramount() {
+        return adminDao.useramount();
+    }
 
-    public String articleamount(){return adminDao.articleamount();}
+    public String articleamount() {
+        return adminDao.articleamount();
+    }
 
-    public Inform inform(){return adminDao.inform();}
+    public Inform inform() {
+        return adminDao.inform();
+    }
 
 }

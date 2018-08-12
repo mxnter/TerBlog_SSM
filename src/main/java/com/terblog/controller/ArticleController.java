@@ -16,25 +16,22 @@ import java.util.List;
 @Controller
 @RequestMapping(value = "article")
 public class ArticleController {
-    private Logger log = Logger.getLogger(this.getClass().getName());
     @Resource
     ArticleService articleService;
-
+    private Logger log = Logger.getLogger(this.getClass().getName());
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String index(Model model,ServletRequest request) {
-        String id=request.getParameter("id");
+    public String index(Model model, ServletRequest request) {
+        String id = request.getParameter("id");
 
-        List<Article> articles = articleService.findInforArticleById(id);
-        log.info("[输出数据] 查看文章------>"+articles);
+        Article article = articleService.findInforArticleById(id);
+        log.info("[输出数据] 查看文章------>" + article);
 
-        model.addAttribute("articles",articles);
-
+        model.addAttribute("article", article);
 
 
         return "article";
     }
-
 
 
 }

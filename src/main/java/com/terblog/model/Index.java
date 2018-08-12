@@ -1,12 +1,12 @@
 package com.terblog.model;
 
 public class Index {
-    private  int id;
-    private  String title;
-    private  String content;
-    private  String data;
-    private  String time;
-    private  String bz;
+    private int id;
+    private String title;
+    private String content;
+    private String data;
+    private String time;
+    private String bz;
 
 
     public int getId() {

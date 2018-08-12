@@ -1,7 +1,6 @@
 package com.terblog.controller;
 
 
-import com.terblog.model.User;
 import com.terblog.service.RegisterService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,10 +18,19 @@ public class RegisterController {
     RegisterService registerService;
 
 
-
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String register(Model model, HttpServletRequest request) {
+
+
+
         return "register";
+    }
+    @RequestMapping(value = "In", method = RequestMethod.POST)
+    public String Inregister(Model model, HttpServletRequest request) {
+
+
+
+        return "redirect:./";
     }
 
 }

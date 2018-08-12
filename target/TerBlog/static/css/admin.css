@@ -63,9 +63,9 @@ html, body {
     padding: 0 16px;
 }
 
-#header .user-info>a{
+#header .user-info > a {
     color: #444444;
-    font-size:15px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -193,15 +193,16 @@ html, body {
 }
 
 /*main page*/
-.breadcrumbs{
+.breadcrumbs {
 }
-.breadcrumbs,.breadcrumb{
+
+.breadcrumbs, .breadcrumb {
     font-size: 16px;
     background-color: white;
     margin-bottom: 12px;
 }
 
-.breadcrumb>li{
+.breadcrumb > li {
     color: #3f3f3f;
 }
 
