@@ -26,52 +26,50 @@
             <br>
             <center>
                 <table align='center' border='1' cellspacing='0'>
-                    <c:forEach items="${users}" var="c" varStatus="st">
                         <tr>
                             <td>id</td>
-                            <td>${c.id}</td>
+                            <td>${user.id}</td>
                         </tr>
                         <tr>
                             <td>username</td>
-                            <td>${c.username}</td>
+                            <td>${user.username}</td>
                         </tr>
                         <tr>
                             <td>password</td>
-                            <td>${c.password}</td>
+                            <td>${user.password}</td>
                         </tr>
                         <tr>
                             <td>nickname</td>
-                            <td>${c.nickname}</td>
+                            <td>${user.nickname}</td>
                         </tr>
                         <tr>
                             <td>headportrait</td>
-                            <td>${c.headportrait}</td>
+                            <td>${user.headportrait}</td>
                         </tr>
                         <tr>
                             <td>registrationdate</td>
-                            <td>${c.registrationdate}</td>
+                            <td>${user.registrationdate}</td>
                         </tr>
                         <tr>
                             <td>administrator</td>
-                            <td>${c.administrator}</td>
+                            <td>${user.administrator}</td>
                         </tr>
                         <tr>
                             <td>sex</td>
-                            <td>${c.sex}</td>
+                            <td>${user.sex}</td>
                         </tr>
                         <tr>
                             <td>email</td>
-                            <td>${c.email}</td>
+                            <td>${user.email}</td>
                         </tr>
                         <tr>
                             <td>phonenumber</td>
-                            <td>${c.phonenumber}</td>
+                            <td>${user.phonenumber}</td>
                         </tr>
                         <tr>
                             <td>signature</td>
-                            <td>${c.signature}</td>
+                            <td>${user.signature}</td>
                         </tr>
-                    </c:forEach>
                 </table>
                 <br><br><br><br><br>
                 <a href="./">返回首页</a>

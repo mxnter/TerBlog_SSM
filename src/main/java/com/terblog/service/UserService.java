@@ -10,9 +10,9 @@ public interface UserService {
 
     List<User> findInformationByUserName(User param);
 
-    List<User> findInformationByUserName(String username);
+    User findInformationByUserName(String username);
 
-    List<User> findInformationByUserId(String userid);
+    User findInformationByUserId(String userid);
 
     List<User> allUser();
 
@@ -25,5 +25,9 @@ public interface UserService {
     void DeleteUser(String UserId);
 
     void ChangePassword(String username, String password);
+
+    void InNewUser(User user);
+
+    void InAlterUser(User user);
 
 }

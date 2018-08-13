@@ -16,7 +16,7 @@ import java.util.List;
 
 /*
  *   @question 问题解决
- *   @data 2018年8月7日
+ *   @date 2018年8月7日
  *   @time 16点20分
  *   @author mxnter
  *
@@ -41,9 +41,9 @@ public class UserController {
         username = session.getAttribute("username").toString();
         String userid = session.getAttribute("userid").toString();
         log.info("[输入信息] 获取用户ID------> username：" + username + "  id：" + userid);
-        List<User> users = userService.findInformationByUserName(username);
-        log.info("[输出信息] 返回用户数据------>" + users);
-        model.addAttribute("users", users);
+        User user = userService.findInformationByUserName(username);
+        log.info("[输出信息] 返回用户数据------>" + user);
+        model.addAttribute("user", user);
         return "user";
 
     }

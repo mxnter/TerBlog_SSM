@@ -1,3 +1,4 @@
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%--
   Created by IntelliJ IDEA.
   User: mrealk
@@ -9,7 +10,15 @@
 
 <!DOCTYPE html>
 <html class="no-js">
-<head> <title>文章管理 - 后台管理 -TerBlog </title></head>
+<head> <title>文章管理 - 后台管理 -TerBlog </title>
+    <style type="text/css">
+        td{
+            /*控制单行显示white-space: nowrap;*/
+            overflow: hidden;/*超出隐藏*/
+            text-overflow: ellipsis;/*隐藏的字符用省略号表示*/
+        }
+    </style>
+</head>
 
 <%@include file="main.jsp" %>
 
@@ -43,8 +52,15 @@
                             <tr class="even gradeC">
                                 <td>${c.id}</td>
                                 <td>${c.title}</td>
-                                <td>${c.content}</td>
-                                <td>${c.data}</td>
+                                <c:choose>
+                                    <c:when test="${fn:length(c.content) >= 20}">
+                                        <td title="${c.content}">${fn:substring(c.content,0,20)}……</td>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <td>${c.content}</td>
+                                    </c:otherwise>
+                                </c:choose>
+                                <td>${c.date}</td>
                                 <td>${c.time}</td>
                                 <td>${c.bz}</td>
                                 <td>

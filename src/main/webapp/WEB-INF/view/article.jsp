@@ -38,7 +38,7 @@
 <div id="header">
     <!--<span class="logo icon fa-paper-plane-o"></span>-->
     <h1>${article.title}</h1>
-    <h6>${article.data} ${article.time}</h6>
+    <h6>${article.date} ${article.time}</h6>
 
 </div>
 

@@ -57,7 +57,7 @@
                                     <button class="btn btn-mini" onclick="window.location.href='${pageContext.request.contextPath}/user?id=${c.id}'">
                                         详情
                                     </button>
-                                    <button class="btn btn-primary btn-mini" onclick="window.location.href='AlterArticle?ArticleId=${c.id}'">
+                                    <button class="btn btn-primary btn-mini" onclick="window.location.href='AlterUser?UserId=${c.id}'">
                                         修改
                                     </button>
                                     <button class="btn btn-danger btn-mini" onclick="window.location.href='BlockUser?UserId=${c.id}'">

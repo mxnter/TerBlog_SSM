@@ -11,6 +11,7 @@
 <%@page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -33,14 +34,14 @@
 <%
     List<Index> indexs = (List<Index>) request.getAttribute("indexs");
     String content = indexs.get(indexs.size() - 1).getContent();
-    //if (content.length() > 20) content = content.substring(0, 30);
+    if (content.length() > 20) content = content.substring(0, 30);
     out.print("  <!--top块 -->\n" +
             "\n" +
             "  <div  class=\"top\" >\n" +
             "    <div class=\"top_z\"  >\n" +
             "      <div class=\"top_a\">\n" +
             "         <h1>" + indexs.get(indexs.size() - 1).getTitle() + "</h1>" +
-            "          <p>\n" + indexs.get(indexs.size() - 1).getData() + "  " + indexs.get(indexs.size() - 1).getTime() + "</p>\n" + "<br><br>" +
+            "          <p>\n" + indexs.get(indexs.size() - 1).getDate() + "  " + indexs.get(indexs.size() - 1).getTime() + "</p>\n" + "<br><br>" +
             "          <p>　　" + content +
             "           <a href=\"article?id=" + indexs.get(indexs.size() - 1).getId() + "\">更多内容》</a>" +
             "        </p>\n" +
@@ -65,7 +66,7 @@
                     "    <div class=\"left_z\"  >\n" +
                     "      <div class=\"left_a\">\n" +
                     "        <h1>" + indexs.get(i).getTitle() + "</h1>\n" +
-                    "        <p>" + indexs.get(i).getData() + "  " + indexs.get(i).getTime() + "</p>\n" + "<br><br>" +
+                    "        <p>" + indexs.get(i).getDate() + "  " + indexs.get(i).getTime() + "</p>\n" + "<br><br>" +
                     "        <p>　　" + contentleft +
                     "           <a href=\"article?id=" + indexs.get(i).getId() + "\">更多内容》</a>" +
                     "        </p>\n" +
@@ -80,7 +81,7 @@
                     "    <div class=\"ringh_z\"  >\n" +
                     "      <div class=\"ringh_a\">\n" +
                     "        <h1>" + indexs.get(i).getTitle() + "</h1>\n" +
-                    "        <p>" + indexs.get(i).getData() + "  " + indexs.get(i).getTime() + "</p>\n" + "<br><br>" +
+                    "        <p>" + indexs.get(i).getDate() + "  " + indexs.get(i).getTime() + "</p>\n" + "<br><br>" +
                     "        <p>　　" + contentringh +
                     "        <a href=\"article?id=" + indexs.get(i).getId() + "\">更多内容》</a>" +
                     "        </p>\n" +
@@ -119,8 +120,15 @@
                     <tr>
                         <td><a href="article?id=${c.id}">${c.id}</a></td>
                         <td>${c.title}</td>
-                        <td>${c.content}</td>
-                        <td>${c.data}</td>
+                        <c:choose>
+                            <c:when test="${fn:length(c.content) >= 20}">
+                                <td title="${c.content}">${fn:substring(c.content,0,20)}……</td>
+                            </c:when>
+                            <c:otherwise>
+                                <td>${c.content}</td>
+                            </c:otherwise>
+                        </c:choose>
+                        <td>${c.date}</td>
                         <td>${c.time}</td>
                         <td>${c.bz}</td>
 

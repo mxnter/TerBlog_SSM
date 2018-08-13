@@ -17,65 +17,71 @@
 
 
 
+<div class="row-fluid">
+    <!-- block -->
+    <div class="block">
+        <div class="navbar navbar-inner block-header">
+            <div class="muted pull-left">修改文章</div>
+        </div>
+        <div class="block-content collapse in">
+            <div class="span12">
+                <form class="form-horizontal" action="InAlterArticle" enctype="multipart/form-data" method="post">
+                    <fieldset>
+                        <legend>编辑文章</legend>
+                        <div class="control-group">
+                            <label class="control-label" for="id">文章ID</label>
+                            <div class="controls">
+                                <input type="text" class="span6" id="id" value="${article.id}" name="id" data-provide="typeahead" data-items="4" data-source='' readonly="readonly">
+                                <p class="help-block">文章ID</p>
+                            </div>
+                            <br>
+                            <label class="control-label" for="title">标题</label>
+                            <div class="controls">
+                                <input type="text" class="span6" id="title" value="${article.title}" name="title" data-provide="typeahead" data-items="4" data-source=''>
+                                <p class="help-block">文章标题</p>
+                            </div>
+                            <br>
+                            <label class="control-label" for="bz">备注</label>
+                            <div class="controls">
+                                <input type="text" class="span6" id="bz" name="bz" value="${article.bz}" data-provide="typeahead" data-items="4" data-source=''>
+                                <p class="help-block">文章备注</p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="date">日期</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge disabled" id="date" name="date" value="${article.date}" readonly="readonly">
+                                <p class="help-block">当前日期无法插入文章，日期和时间由系统自动生成</p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="state">保存类型</label>
+                            <div class="controls">
+                                <select id="state" name="state" class="chzn-select" vocab="${article.date}">
+                                    <option value="0">发布</option>
+                                    <option value="2">草稿</option>
+                                    <option value="1">回收站</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="content">文章内容</label>
+                            <div class="controls">
+                                <textarea class="input-xlarge textarea" placeholder="Enter text ..." style="width: 810px; height: 200px" id="content" name="content">${article.content}</textarea>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">保存</button>
+                            <button type="reset" class="btn">取消</button>
+                        </div>
+                    </fieldset>
+                </form>
 
-    <div class="row-fluid">
-        <!-- block -->
-        <div class="block">
-            <div class="navbar navbar-inner block-header">
-                <div class="muted pull-left">新建文章</div>
-            </div>
-            <div class="block-content collapse in">
-                <div class="span12">
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <legend>编辑文章</legend>
-                            <div class="control-group">
-                                <label class="control-label" for="title">标题</label>
-                                <div class="controls">
-                                    <input type="text" class="span6" id="title"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
-                                    <p class="help-block">文章标题</p>
-                                </div>
-                                <label class="control-label" for="bz">备注</label>
-                                <div class="controls">
-                                    <input type="text" class="span6" id="bz"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
-                                    <p class="help-block">文章备注</p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label" for="date">日期</label>
-                                <div class="controls">
-                                    <input type="text" class="input-xlarge datepicker" id="date" value="02/16/2018">
-                                    <p class="help-block">文章日期</p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label" for="select01">保存类型</label>
-                                <div class="controls">
-                                    <select id="select01" class="chzn-select">
-                                        <option>发布</option>
-                                        <option>草稿</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label" for="textarea">文章内容</label>
-                                <div class="controls">
-                                    <textarea class="input-xlarge textarea" placeholder="Enter text ..." style="width: 810px; height: 200px" id="textarea"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-actions">
-                                <button type="submit" class="btn btn-primary">保存</button>
-                                <button type="reset" class="btn">取消</button>
-                            </div>
-                        </fieldset>
-                    </form>
-
-                </div>
             </div>
         </div>
-        <!-- /block -->
     </div>
-
+    <!-- /block -->
+</div>
 
 
 </div>

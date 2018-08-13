@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html class="no-js">
-<head> <title>新建 - 后台管理 -TerBlog </title></head>
+<head> <title>修改用户 - 后台管理 -TerBlog </title></head>
 
 
 <%@include file="main.jsp" %>
@@ -24,60 +24,76 @@
         </div>
         <div class="block-content collapse in">
             <div class="span12">
-                <form class="form-horizontal">
+                <form class="form-horizontal" action="InNewUser" enctype="multipart/form-data" method="post">
                     <fieldset>
                         <legend>修改用户</legend>
                         <div class="control-group">
+                            <label class="control-label" for="id">用户ID</label>
+                            <div class="controls">
+                                <input class="input-xlarge focused" id="id" name="id" type="text" value="${user.id}" readonly="readonly" >
+                            </div>
+                        </div>
+                        <div class="control-group">
                             <label class="control-label" for="username">用户名</label>
                             <div class="controls">
-                                <input class="input-xlarge focused" id="username" type="text" value="">
+                                <input class="input-xlarge focused" id="username" name="username" type="text" value="${user.username}">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="password">密码</label>
+                            <div class="controls">
+                                <input class="input-xlarge focused" id="password" name="password" type="password" value="${user.password}">
                             </div>
                         </div>
                         <div class="control-group">
                             <label class="control-label" for="nickname">昵称</label>
                             <div class="controls">
-                                <input class="input-xlarge focused" id="nickname" type="text" value="">
+                                <input class="input-xlarge focused" id="nickname" name="nickname" type="text" value="${user.nickname}">
                             </div>
                         </div>
                         <div class="control-group">
                             <label class="control-label" for="sex">性别</label>
                             <div class="controls">
-                                <input class="input-xlarge focused" id="sex" type="text" value="">
+                                <select id="sex" name="sex">
+                                    <option value="男">男</option>
+                                    <option value="女">女</option>
+                                </select>
+                                <p>自动转换为默认值</p>
                             </div>
                         </div>
                         <div class="control-group">
                             <label class="control-label" for="email">电子邮箱</label>
                             <div class="controls">
-                                <input class="input-xlarge focused" id="email" type="text" value="">
+                                <input class="input-xlarge focused" id="email" name="email" type="text" value="${user.email}">
                             </div>
                         </div>
                         <div class="control-group">
                             <label class="control-label" for="phonenumber">手机号</label>
                             <div class="controls">
-                                <input class="input-xlarge focused" id="phonenumber" type="number" value="">
+                                <input class="input-xlarge focused" id="phonenumber" name="phonenumber" type="text" value="${user.phonenumber}">
                             </div>
                         </div>
                         <div class="control-group">
                             <label class="control-label" for="signature">个性签名</label>
                             <div class="controls">
-                                <input class="input-xlarge focused" id="signature" type="text" value="">
+                                <input class="input-xlarge focused" id="signature" name="signature" type="text" value="${user.signature}">
                             </div>
                         </div>
-                        <div class="control-group success">
+                        <div class="control-group">
                             <label class="control-label" for="state">用户状态</label>
                             <div class="controls">
-                                <select id="state">
-                                    <option>0</option>
-                                    <option>1</option>
+                                <select id="state" name="state">
+                                    <option value="0">启用</option>
+                                    <option value="1">停用</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="control-group success">
+                        <div class="control-group">
                             <label class="control-label" for="administrator">用户类型</label>
                             <div class="controls">
-                                <select id="administrator">
-                                    <option>user</option>
-                                    <option>admin</option>
+                                <select id="administrator" name="administrator">
+                                    <option value="user">用户</option>
+                                    <option value="admin">管理员</option>
                                 </select>
                             </div>
                         </div>

@@ -1,3 +1,4 @@
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%--
   Created by IntelliJ IDEA.
   User: mrealk
@@ -42,8 +43,15 @@
                             <tr class="even gradeC">
                                 <td>${c.id}</td>
                                 <td>${c.title}</td>
-                                <td>${c.content}</td>
-                                <td>${c.data}</td>
+                                <c:choose>
+                                    <c:when test="${fn:length(c.content) >= 20}">
+                                        <td title="${c.content}">${fn:substring(c.content,0,20)}……</td>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <td>${c.content}</td>
+                                    </c:otherwise>
+                                </c:choose>
+                                <td>${c.date}</td>
                                 <td>${c.time}</td>
                                 <td>${c.bz}</td>
                                 <td>

@@ -16,6 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 
@@ -34,18 +37,28 @@ public class AdminController {
     public String admin(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
 
-        if (session.isNew() || session.getAttribute("isLogin").equals("n"))
-            return "redirect:login";
+//        try {
+//            if(session.getAttribute("isLogin").equals("n"))return "redirect:login";
+//        }catch (Exception e){
+//
+//        }
 
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:./";
 
         String useramount = adminService.useramount();
         String articleamount = adminService.articleamount();
         Inform inform = adminService.inform();
+        String informamount = adminService.informamount();
+        List<Inform> informs  =adminService.allinforma();
 
         model.addAttribute("useramount", useramount);
         model.addAttribute("articleamount", articleamount);
         //model.addAttribute("inform", inform);
         session.setAttribute("inform",inform);
+        model.addAttribute("informamount", informamount);
+        model.addAttribute("informs", informs);
 
         // log.info("[输入数据] amount------> " + useramount+articleamount);
 
@@ -57,8 +70,8 @@ public class AdminController {
     public String admin_table(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
 
-        if (session.isNew() || session.getAttribute("isLogin").equals("n"))
-            return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:./";
 
 
         return "admin/table";
@@ -69,8 +82,8 @@ public class AdminController {
     public String admin_Management_Article(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
 
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
-
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         List<Article> articles = articleService.allArticle();
         model.addAttribute("articles", articles); // 传参数给前端
@@ -82,7 +95,8 @@ public class AdminController {
     @RequestMapping(value = "Recycled", method = RequestMethod.GET)
     public String admin_RecycledArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
         List<Article> articles = articleService.RecycledArticle();
         model.addAttribute("articles", articles); // 传参数给前端
 
@@ -92,7 +106,8 @@ public class AdminController {
     @RequestMapping(value = "Draft", method = RequestMethod.GET)
     public String admin_DraftArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
         List<Article> articles = articleService.DraftArticle();
         model.addAttribute("articles", articles); // 传参数给前端
 
@@ -102,7 +117,8 @@ public class AdminController {
     @RequestMapping(value = "InRecycledArticle", method = RequestMethod.GET)
     public String admin_InRecycledArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
         log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.InRecycledArticle(request.getParameter("ArticleId"));
         return "redirect:./Article";
@@ -112,7 +128,8 @@ public class AdminController {
     @RequestMapping(value = "OutRecycledArticle", method = RequestMethod.GET)
     public String admin_OutRecycledArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
         log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.OutRecycledArticle(request.getParameter("ArticleId"));
         return "redirect:./Recycled";
@@ -121,7 +138,8 @@ public class AdminController {
     @RequestMapping(value = "InDraftArticle", method = RequestMethod.GET)
     public String admin_InDraftArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.InDraftArticle(request.getParameter("ArticleId"));
@@ -131,7 +149,8 @@ public class AdminController {
     @RequestMapping(value = "OutDraftArticle", method = RequestMethod.GET)
     public String admin_OutDraftArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.OutDraftArticle(request.getParameter("ArticleId"));
@@ -141,7 +160,8 @@ public class AdminController {
     @RequestMapping(value = "DeleteArticle", method = RequestMethod.GET)
     public String admin_DeleteArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.DeleteArticle(request.getParameter("ArticleId"));
@@ -150,35 +170,68 @@ public class AdminController {
     @RequestMapping(value = "NewArticle", method = RequestMethod.GET)
     public String admin_NewArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
 
         return "admin/newarticle";
     }
 
-    @RequestMapping(value = "InNewArticle", method = RequestMethod.GET)
-    public String admin_InNewArticle(Model model, HttpServletRequest request) {
+    @RequestMapping(value = "InNewArticle", method = RequestMethod.POST)
+    public String admin_InNewArticle(Model model,Article article, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+
+        Date date = new Date();
+        //最后的aa表示“上午”或“下午”    HH表示24小时制    如果换成hh表示12小时制
+        SimpleDateFormat sdate = new SimpleDateFormat("yyyy-MM-dd ");
+        SimpleDateFormat stime = new SimpleDateFormat("HH:mm:ss");
+        log.info("[输出数据] 查看文章------>" +article);
+        article.setDate(sdate.format(date));
+        article.setTime(stime.format(date));
+
+        log.info("[输出数据] 查看文章------>" +article);
+        log.info("[输出数据] 查看文章------>" +request.getParameter("state"));
+
+        articleService.InNewArticle(article);
 
 
-        return "admin/newarticle";
+        return "redirect:./Article";
     }
     @RequestMapping(value = "AlterArticle", method = RequestMethod.GET)
     public String admin_AlterArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
+
+        Article article =articleService.findInforArticleById(request.getParameter("ArticleId"));
+
+        model.addAttribute("article",article);
 
         return "admin/alterarticle";
     }
-    @RequestMapping(value = "InAlterArticle", method = RequestMethod.GET)
-    public String admin_InAlterArticle(Model model, HttpServletRequest request) {
+    @RequestMapping(value = "InAlterArticle", method = RequestMethod.POST)
+    public String admin_InAlterArticle(Model model,Article article, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
+        Date date = new Date();
+        //最后的aa表示“上午”或“下午”    HH表示24小时制    如果换成hh表示12小时制
+        SimpleDateFormat sdate = new SimpleDateFormat("yyyy-MM-dd ");
+        SimpleDateFormat stime = new SimpleDateFormat("HH:mm:ss");
+        log.info("[输出数据] 查看文章------>" +article);
+        article.setDate(sdate.format(date));
+        article.setTime(stime.format(date));
 
-        return "admin/alterarticle";
+        log.info("[输出数据] 查看文章------>" +article);
+        log.info("[输出数据] 查看文章------>" +request.getParameter("state"));
+
+        articleService.InAlterArticle(article);
+
+        return "redirect:./Article";
     }
 
 
@@ -188,7 +241,8 @@ public class AdminController {
     @RequestMapping(value = "User", method = RequestMethod.GET)
     public String admin_ManagementUser(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
         List<User> users = userService.allUser();
         model.addAttribute("users", users); // 传参数给前端
 
@@ -198,7 +252,8 @@ public class AdminController {
     @RequestMapping(value = "ForbiddenUser", method = RequestMethod.GET)
     public String admin_ForbiddenUser(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
         List<User> users = userService.forbiddenUser();
         model.addAttribute("users", users); // 传参数给前端
 
@@ -208,7 +263,8 @@ public class AdminController {
     @RequestMapping(value = "StartUser", method = RequestMethod.GET)
     public String admin_StartUser(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         userService.StartUser(request.getParameter("UserId"));
         return "redirect:./User";
@@ -217,7 +273,8 @@ public class AdminController {
     @RequestMapping(value = "BlockUser", method = RequestMethod.GET)
     public String admin_BlockUser(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         userService.BlockUser(request.getParameter("UserId"));
         return "redirect:./User";
@@ -226,17 +283,73 @@ public class AdminController {
     @RequestMapping(value = "DeleteUser", method = RequestMethod.GET)
     public String admin_DeleteUser(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         userService.DeleteUser(request.getParameter("UserId"));
-        return "redirect:./User";
+        return "redirect:./ForbiddenUser";
     }
+
     @RequestMapping(value = "NewUser", method = RequestMethod.GET)
     public String admin_NewUser(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
 
         return "admin/newuser";
+    }
+
+    @RequestMapping(value = "InNewUser", method = RequestMethod.POST)
+    public String admin_InNewUser(Model model,User user, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+
+        log.info("[输出数据] 查看文章------>" +user);
+        Date date = new Date();
+        //最后的aa表示“上午”或“下午”    HH表示24小时制    如果换成hh表示12小时制
+        SimpleDateFormat sdatetame = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        user.setRegistrationdate(sdatetame.format(date));
+        user.setHeadportrait("暂无");
+
+        userService.InNewUser(user);
+
+
+        return "redirect:./User";
+    }
+
+    @RequestMapping(value = "AlterUser", method = RequestMethod.GET)
+    public String admin_AlterUser(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+
+        User user = userService.findInformationByUserId(request.getParameter("UserId"));
+        model.addAttribute("user",user);
+
+
+        return "admin/alteruser";
+    }
+
+    @RequestMapping(value = "InAlterUser", method = RequestMethod.POST)
+    public String admin_InAlterUser(Model model,User user, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:./login";
+        if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+
+
+        Date date = new Date();
+        //最后的aa表示“上午”或“下午”    HH表示24小时制    如果换成hh表示12小时制
+        SimpleDateFormat sdatetame = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        user.setRegistrationdate(sdatetame.format(date));
+        user.setHeadportrait("暂无");
+
+        userService.InAlterUser(user);
+
+
+
+
+        return "redirect:./User";
     }
 
 

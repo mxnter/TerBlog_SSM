@@ -63,38 +63,23 @@
                         <a href="${pageContext.request.contextPath}">首页</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">设置 <b class="caret"></b>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">关于 <b class="caret"></b>
 
                         </a>
                         <ul class="dropdown-menu" id="menu1">
                             <li>
-                                <a href="#">工具 <i class="icon-arrow-right"></i>
-
-                                </a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <li>
-                                        <a href="#">报表</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">日志</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">错误</a>
-                                    </li>
-                                </ul>
+                                <a href="https://mter.xyz/">Mxnter</a>
                             </li>
                             <li>
-                                <a href="#">SEO设置</a>
-                            </li>
-                            <li>
-                                <a href="#">其他链接</a>
+                                <a href="https://github.com/mxnter">GitHub</a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="#">其他链接</a>
+                                <a href="https://github.com/mxnter/TerBlog">TerBlog GitHub</a>
                             </li>
+                            <li class="divider"></li>
                             <li>
-                                <a href="#">其他链接</a>
+                                <a href="./ad">旧版管理-半成品</a>
                             </li>
                         </ul>
                     </li>
@@ -151,10 +136,10 @@
                     <a href="${pageContext.request.contextPath}/admin"><i class="icon-chevron-right"></i> 仪表盘</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/AlterArticle"><i class="icon-chevron-right"></i> 新建</a>
+                    <a href="${pageContext.request.contextPath}/admin/Article"><i class="icon-chevron-right"></i> 文章</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/Article"><i class="icon-chevron-right"></i> 文章</a>
+                    <a href="${pageContext.request.contextPath}/admin/NewArticle"><i class="icon-chevron-right"></i> 新建</a>
                 </li>
                 <li >
                     <a href="${pageContext.request.contextPath}/admin/Draft"><i class="icon-chevron-right"></i> 草稿</a>
@@ -166,6 +151,9 @@
                     <a href="${pageContext.request.contextPath}/admin/User"><i class="icon-chevron-right"></i> 用户</a>
                 </li>
                 <li >
+                    <a href="${pageContext.request.contextPath}/admin/NewUser"><i class="icon-chevron-right"></i> 新建</a>
+                </li>
+                <li >
                     <a href="${pageContext.request.contextPath}/admin/ForbiddenUser"><i class="icon-chevron-right"></i> 禁用</a>
                 </li>
 
@@ -175,17 +163,10 @@
         </div>
         <!--/span-->
         <div class="span10" id="content">
-            <div class="row-fluid">
-                <%
-
-                    //if(!request.getParameter("inform").get())
-
-                       // out.print("");
 
 
-                %>
-                <div class=alert alert-success>
-                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <h4>${inform.title} </h4>
-                                   ${inform.content}</div>
-            </div>
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <h4>${inform.title} </h4>
+                            ${inform.content}</div>
+

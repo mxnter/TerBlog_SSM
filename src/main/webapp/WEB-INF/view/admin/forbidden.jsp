@@ -58,7 +58,7 @@
                                         详情
                                     </button>
                                     <button class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal"
-                                            onclick="window.location.href='AlterArticle?ArticleId=${c.id}'">
+                                            onclick="window.location.href='AlterUser?UserId=${c.id}'">
                                         修改
                                     </button>
                                     <button class="btn btn-danger btn-mini" onclick="window.location.href='StartUser?UserId=${c.id}'">

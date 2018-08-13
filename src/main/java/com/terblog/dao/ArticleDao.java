@@ -24,4 +24,7 @@ public interface ArticleDao {
 
     void DeleteArticle(String ArticleId);
 
+    void InNewArticle (Article INA);
+
+    void InAlterArticle (Article IAA);
 }

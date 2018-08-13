@@ -42,4 +42,16 @@
     </update>
 
 
+
+    <insert id="InNewUser" parameterType="com.terblog.model.User">
+        insert into  user (username,password,nickname,headportrait,registrationdate,administrator,sex,email,phonenumber,signature,state)
+        values (#{username},#{password},#{nickname},#{headportrait},#{registrationdate},#{administrator},#{sex},#{email},#{phonenumber},#{signature},#{state})
+
+    </insert>
+
+    <update id="InAlterUser" parameterType="com.terblog.model.User">
+        update user set title= #{title} , content= #{content},date = #{date},time = #{time},bz = #{bz},state = #{state}  where id = #{id}
+    </update>
+
+
 </mapper>

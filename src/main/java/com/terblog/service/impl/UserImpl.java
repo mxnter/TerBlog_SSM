@@ -25,13 +25,13 @@ public class UserImpl implements UserService {
         return userDao.findInformationByUserName(param);
     }
 
-    public List<User> findInformationByUserName(String username) {
+    public User findInformationByUserName(String username) {
 
 
         return userDao.findInformationByUserName(username);
     }
 
-    public List<User> findInformationByUserId(String userid) {
+    public User findInformationByUserId(String userid) {
         return userDao.findInformationByUserId(userid);
     }
 
@@ -58,5 +58,12 @@ public class UserImpl implements UserService {
     public void ChangePassword(String username, String password) {
         userDao.ChangePassword(username, password);
     }
+
+
+    public void InNewUser(User user){userDao.InNewUser(user);}
+
+    public void InAlterUser(User user){userDao.InAlterUser(user);}
+
+
 
 }

@@ -16,27 +16,15 @@
 
 
 
-    <div class="navbar">
-    <div class="navbar-inner">
-        <ul class="breadcrumb">
-            <i class="icon-chevron-left hide-sidebar"><a href='#' title="Hide Sidebar" rel='tooltip'>&nbsp;</a></i>
-            <i class="icon-chevron-right show-sidebar" style="display:none;"><a href='#' title="Show Sidebar" rel='tooltip'>&nbsp;</a></i>
-            <li>
-                <a href="#">首页</a> <span class="divider">/</span>
-            </li>
-            <li>
-                <a href="#">设置</a> <span class="divider">/</span>
-            </li>
-            <li class="active">工具</li>
-        </ul>
-    </div>
-</div>
+
+
+
     <div class="row-fluid">
         <!-- block -->
         <div class="block">
             <div class="navbar navbar-inner block-header">
                 <div class="muted pull-left">统计</div>
-                <div class="pull-right"><span class="badge badge-warning">查看更多</span>
+                <div class="pull-right"><span class="badge badge-warning">···</span>
 
                 </div>
             </div>
@@ -54,24 +42,48 @@
                     </div>
                 </div>
                 <div class="span3">
-                    <div class="chart" data-percent="0">0%</div>
-                    <div class="chart-bottom-heading"><span class="label label-info">待设置</span>
+                    <div class="chart" data-percent="${informamount}">${informamount}条</div>
+                    <div class="chart-bottom-heading"><span class="label label-info">通知</span>
 
                     </div>
                 </div>
                 <div class="span3">
-                    <div class="chart" data-percent="0">0%</div>
-                    <div class="chart-bottom-heading"><span class="label label-info">待设置</span>
+                    <div class="chart" data-percent="0">0条</div>
+                    <div class="chart-bottom-heading"><span class="label label-info">评论</span>
 
                     </div>
                 </div>
             </div>
         </div>
         <!-- /block -->
+
+
+
+
+
+
+
+
+
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 </div>
+
 <hr>
 <%@include file="footer.jsp" %>
 </div>

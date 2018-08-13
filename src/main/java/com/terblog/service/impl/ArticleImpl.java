@@ -54,5 +54,11 @@ public class ArticleImpl implements ArticleService {
         articleDao.DeleteArticle(ArticleId);
     }
 
+    public void InNewArticle (Article INA) {
+         articleDao.InNewArticle(INA);
+    }
 
+    public void InAlterArticle (Article IAA) {
+        articleDao.InAlterArticle(IAA);
+    }
 }

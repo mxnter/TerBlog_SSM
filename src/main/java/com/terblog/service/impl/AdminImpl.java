@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class AdminImpl implements AdminService {
@@ -25,6 +26,14 @@ public class AdminImpl implements AdminService {
 
     public Inform inform() {
         return adminDao.inform();
+    }
+
+    public String informamount() {
+        return adminDao.informamount();
+    }
+
+    public List<Inform> allinforma() {
+        return adminDao.allinforma();
     }
 
 }

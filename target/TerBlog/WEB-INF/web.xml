@@ -41,6 +41,10 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>default</servlet-name>
+        <url-pattern>*.ico</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
         <url-pattern>/static</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
@@ -91,6 +95,7 @@
         <servlet-name>spring-mvc</servlet-name>     <!-- 这里的名字要和上面的servlet-name统一 -->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+    <!-- filter xml 配置 -->
 
 
 </web-app>

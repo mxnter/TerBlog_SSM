@@ -24,4 +24,8 @@ public interface ArticleService {
 
     void DeleteArticle(String ArticleId);
 
+    void InNewArticle (Article INA);
+
+    void InAlterArticle (Article IAA);
+
 }

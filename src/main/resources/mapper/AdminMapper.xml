@@ -22,4 +22,15 @@
                     from inform);
     </select>
 
+    <select id="informamount" resultType="String">
+        select count(*)
+        from inform
+    </select>
+
+    <select id="allinforma" resultType="com.terblog.model.Inform">
+        select *
+        from inform
+    </select>
+
+
 </mapper>

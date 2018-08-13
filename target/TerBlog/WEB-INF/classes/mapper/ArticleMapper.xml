@@ -45,6 +45,17 @@
     <delete id="DeleteArticle" parameterType="com.terblog.model.Article">
         delete from article where id = #{ArticleId} and state = 1
     </delete>
+    
+    
+    <insert id="InNewArticle" parameterType="com.terblog.model.Article">
+        insert into  article (title,content,date,time,bz,state)
+        values (#{title},#{content},#{date},#{time},#{bz},#{state})
+
+    </insert>
+
+    <update id="InAlterArticle" parameterType="com.terblog.model.Article">
+        update article set title= #{title} , content= #{content},date = #{date},time = #{time},bz = #{bz},state = #{state}  where id = #{id}
+    </update>
 
 
 </mapper>

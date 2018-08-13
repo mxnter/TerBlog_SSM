@@ -5,10 +5,10 @@ public class Article {
     private int id;
     private String title;
     private String content;
-    private String data;
+    private String date;
     private String time;
     private String bz;
-    private int state;
+    private String state;
 
     public int getId() {
         return id;
@@ -34,12 +34,12 @@ public class Article {
         this.content = content;
     }
 
-    public String getData() {
-        return data;
+    public String getDate() {
+        return date;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getTime() {
@@ -58,11 +58,11 @@ public class Article {
         this.bz = bz;
     }
 
-    public int getState() {
+    public String getState() {
         return state;
     }
 
-    public void setState(int recycled) {
+    public void setState(String state) {
         this.state = state;
     }
 
@@ -73,7 +73,7 @@ public class Article {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", data='" + data + '\'' +
+                ", date='" + date + '\'' +
                 ", time='" + time + '\'' +
                 ", bz='" + bz + '\'' +
                 ", state=" + state +

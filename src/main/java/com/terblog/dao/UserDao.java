@@ -12,9 +12,9 @@ public interface UserDao {
 
     List<User> findInformationByUserName(User param);
 
-    List<User> findInformationByUserName(String username);
+    User findInformationByUserName(String username);
 
-    List<User> findInformationByUserId(String userid);
+    User findInformationByUserId(String userid);
 
     List<User> allUser();
 
@@ -27,6 +27,10 @@ public interface UserDao {
     void DeleteUser(String UserId);
 
     void ChangePassword(@Param("username") String username, @Param("password") String password);
+
+    void InNewUser(User user);
+
+    void InAlterUser(User user);
 
 
 }

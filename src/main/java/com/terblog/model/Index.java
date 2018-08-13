@@ -4,7 +4,7 @@ public class Index {
     private int id;
     private String title;
     private String content;
-    private String data;
+    private String date;
     private String time;
     private String bz;
 
@@ -33,12 +33,12 @@ public class Index {
         this.content = content;
     }
 
-    public String getData() {
-        return data;
+    public String getDate() {
+        return date;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getTime() {
@@ -63,7 +63,7 @@ public class Index {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", data='" + data + '\'' +
+                ", date='" + date + '\'' +
                 ", time='" + time + '\'' +
                 ", bz='" + bz + '\'' +
                 '}';
