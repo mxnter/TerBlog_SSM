@@ -56,16 +56,6 @@
             </div>
         </div>
         <!-- /block -->
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
@@ -83,9 +73,11 @@
 
 </div>
 </div>
-
 <hr>
-<%@include file="footer.jsp" %>
+<footer>
+    <p>Copyright © 2018 <a href="https://Mxnter.github.io/" target="_blank" title="nter">M**ter</a>. All rights
+        reserved. Hosted in GitHub</p>
+</footer>
 </div>
 <!--/.fluid-container-->
 <script src="admin/vendors/jquery-1.9.1.min.js"></script>

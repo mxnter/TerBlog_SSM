@@ -79,7 +79,7 @@
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="./ad">旧版管理-半成品</a>
+                                <a href="${pageContext.request.contextPath}/ad">旧版管理-半成品</a>
                             </li>
                         </ul>
                     </li>
