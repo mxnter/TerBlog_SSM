@@ -34,8 +34,11 @@ public class UserController {
 
         HttpSession session = request.getSession();
 
-        if (session.isNew() || session.getAttribute("isLogin").equals("n"))
-            return "login";
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:login";
+        }catch (Exception e){
+            return "redirect:login";
+        }
 
 
         username = session.getAttribute("username").toString();

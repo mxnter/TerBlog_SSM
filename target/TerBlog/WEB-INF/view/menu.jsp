@@ -24,9 +24,15 @@
                 "        </a>\n" +
                 "    </li>";
 
-        if (session.isNew()) {
+        try {
+            if (session.isNew()) {
+                session.setAttribute("isLogin", "n");
+            }else if(session.getAttribute("username").equals("")){session.setAttribute("isLogin", "n"); }
+
+        }catch (Exception e){
             session.setAttribute("isLogin", "n");
         }
+
 
 
         if (session.getAttribute("isLogin").equals("y") && !session.isNew()) {

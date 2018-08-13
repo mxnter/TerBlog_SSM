@@ -29,12 +29,21 @@ public class LoginController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String nologin(Model model, HttpServletRequest request) {
 
+
         HttpSession session = request.getSession();
-        if (session.getAttribute("isLogin").equals("y") && !session.isNew()) {
-            return "redirect:./";
-        } else {
+
+        try {
+            if (session.getAttribute("isLogin").equals("y") && !session.isNew()) {
+                return "redirect:./";
+            } else {
+                return "login";
+            }
+
+        }catch (Exception e){
             return "login";
         }
+
+
 
 
     }

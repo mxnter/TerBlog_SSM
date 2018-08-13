@@ -102,7 +102,6 @@ public class AdController {
     public String admin_InRecycledArticle(Model model, HttpServletRequest request) {
         HttpSession session = request.getSession();
         if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
-        log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.InRecycledArticle(request.getParameter("ArticleId"));
         return "redirect:./Article";
     }
@@ -122,7 +121,6 @@ public class AdController {
         HttpSession session = request.getSession();
         if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
 
-        log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.InDraftArticle(request.getParameter("ArticleId"));
         return "redirect:./Draft";
     }
@@ -142,7 +140,6 @@ public class AdController {
         HttpSession session = request.getSession();
         if (session.isNew() || session.getAttribute("isLogin").equals("n")) return "redirect:login";
 
-        log.info("[输出数据] 查看文章------>" + request.getParameter("ArticleId"));
         articleService.DeleteArticle(request.getParameter("ArticleId"));
         return "redirect:./Recycled";
     }
