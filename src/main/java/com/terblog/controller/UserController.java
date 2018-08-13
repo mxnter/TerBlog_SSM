@@ -30,7 +30,7 @@ public class UserController {
 
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String user(Model model, HttpServletRequest request, String username) {
+    public String user(Model model, HttpServletRequest request) {
 
         HttpSession session = request.getSession();
 
@@ -40,14 +40,27 @@ public class UserController {
             return "redirect:login";
         }
 
+        try {
+        if(!request.getParameter("id").equals("")){
+            User user = userService.findInformationByUserId(request.getParameter("id"));
+            log.info("[输出信息] 返回用户数据------>" + user);
+            model.addAttribute("user", user);
+            return "user";
+        }
+        }catch (Exception e){
+            log.info("[输出信息] 未get到值" );
+        }
 
-        username = session.getAttribute("username").toString();
+        String username = session.getAttribute("username").toString();
         String userid = session.getAttribute("userid").toString();
         log.info("[输入信息] 获取用户ID------> username：" + username + "  id：" + userid);
         User user = userService.findInformationByUserName(username);
         log.info("[输出信息] 返回用户数据------>" + user);
         model.addAttribute("user", user);
         return "user";
+
+
+
 
     }
 

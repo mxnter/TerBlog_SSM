@@ -34,7 +34,7 @@
 <%
     List<Index> indexs = (List<Index>) request.getAttribute("indexs");
     String content = indexs.get(indexs.size() - 1).getContent();
-    if (content.length() > 20) content = content.substring(0, 30);
+    if (content.length() > 30) content = content.substring(0, 30);
     out.print("  <!--top块 -->\n" +
             "\n" +
             "  <div  class=\"top\" >\n" +

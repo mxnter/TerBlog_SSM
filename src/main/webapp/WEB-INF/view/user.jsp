@@ -36,7 +36,7 @@
                         </tr>
                         <tr>
                             <td>password</td>
-                            <td>${user.password}</td>
+                            <td>**********</td>
                         </tr>
                         <tr>
                             <td>nickname</td>
