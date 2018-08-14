@@ -51,6 +51,25 @@ public class UserController {
             log.info("[输出信息] 未get到值" );
         }
 
+        User user = userService.findInformationByUserId(request.getParameter("id"));
+        log.info("[输出信息] 返回用户数据------>" + user);
+        model.addAttribute("user", user);
+        return "user";
+
+
+
+    }
+
+    @RequestMapping(value = "me", method = RequestMethod.GET)
+    public String userme(Model model, HttpServletRequest request) {
+
+        HttpSession session = request.getSession();
+
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:./login";
+        }catch (Exception e){
+            return "redirect:./login";
+        }
         String username = session.getAttribute("username").toString();
         String userid = session.getAttribute("userid").toString();
         log.info("[输入信息] 获取用户ID------> username：" + username + "  id：" + userid);
@@ -63,6 +82,7 @@ public class UserController {
 
 
     }
+
 
     @RequestMapping(value = "forget", method = RequestMethod.GET)
     public String user_forget(Model model, HttpServletRequest request) {

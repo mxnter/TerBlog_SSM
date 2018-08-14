@@ -46,7 +46,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a tabindex="-1" href="${pageContext.request.contextPath}/user">个人资料</a>
+                                <a tabindex="-1" href="${pageContext.request.contextPath}/user/me">个人资料</a>
                             </li>
                             <li>
                                 <a tabindex="-1" href="${pageContext.request.contextPath}/cp">修改密码</a>

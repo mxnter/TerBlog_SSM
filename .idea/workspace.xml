@@ -11,38 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e943315c-90ab-4738-8f0f-787d75dd24b4" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/model/Inform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/model/Inform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user/images/profile_img.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TerBlog.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/dao/RegisterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/dao/RegisterDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/RegisterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/impl/RegisterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/impl/RegisterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/RegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/RegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/admin/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/RegisterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/dao/RegisterDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/service/RegisterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/RegisterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/RegisterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/RegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/controller/UserController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,29 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="143" column="34" selection-start-line="142" selection-start-column="7" selection-end-line="143" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hint.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hint.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="70" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/user/js/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,20 +56,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp">
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="172" column="133" lean-forward="true" selection-start-line="172" selection-start-column="133" selection-end-line="172" selection-end-column="133" />
+            <state relative-caret-position="644">
+              <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="75" column="61" lean-forward="true" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -132,27 +105,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp">
+      <file leaf-file-name="mu.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-281">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="491">
+              <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196" />
-          </provider>
+      <file leaf-file-name="bg_img.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/user/images/bg_img.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+      <file leaf-file-name="menu.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+            <state relative-caret-position="654">
+              <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -183,12 +154,12 @@
       <find>InDraftArticle</find>
       <find>DraftArticle</find>
       <find>ArticlesId</find>
-      <find />
-      <find />
-      <find />
-      <find />
+      <find>&lt;%@ page contentType=&quot;text/html;charset=UTF-8&quot; language=&quot;java&quot; %&gt;</find>
+      <find>\&lt;\%\@ page language\=\&quot;java\&quot; contentType\=\&quot;text\/html\; charset\=UTF\-8\&quot;\n         pageEncoding\=\&quot;UTF\-8\&quot; \%\&gt;</find>
+      <find>&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot; pageEncoding=&quot;UTF-8&quot; %&gt;</find>
+      <find>records per page</find>
       <find>data</find>
-      <find />
+      <find>if (session.isNew() || session.getAttribute(&quot;administrator&quot;).equals(&quot;user&quot;)) return &quot;redirect:./&quot;;</find>
       <find>session.getAttribute(&quot;administrator&quot;).equals(&quot;user&quot;)</find>
       <find>log.info</find>
       <find>请</find>
@@ -237,9 +208,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newuser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java" />
@@ -256,8 +225,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" />
       </list>
     </option>
   </component>
@@ -284,7 +255,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="429" />
     <option name="y" value="91" />
     <option name="width" value="1385" />
@@ -413,6 +384,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -465,11 +453,11 @@
       <recent name="com.terblog.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\user\images" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\admin" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\css" />
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\static\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.terblog.controller" />
@@ -633,12 +621,12 @@
       <workItem from="1534040104466" duration="19488000" />
       <workItem from="1534121005103" duration="20550000" />
       <workItem from="1534143281231" duration="11944000" />
-      <workItem from="1534206769048" duration="9720000" />
+      <workItem from="1534206769048" duration="12429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198204000" />
+    <option name="totallyTimeSpent" value="200913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -700,20 +688,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/IndexImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/LoginImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -781,20 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -911,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/ma.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1019,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="511" selection-start-line="511" selection-end-line="511" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-196" />
@@ -1055,28 +1001,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="365">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="654">
+          <caret line="48" column="74" selection-start-line="48" selection-start-column="74" selection-end-line="48" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="172" column="133" lean-forward="true" selection-start-line="172" selection-start-column="133" selection-end-line="172" selection-end-column="133" />
+        <state relative-caret-position="68">
+          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user/images/bg_img.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user/images/profile_img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="75" column="61" lean-forward="true" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

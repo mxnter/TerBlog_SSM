@@ -42,11 +42,11 @@
                 out.print(      CD1 + "logout" + CD2 + "退出" + CD3 +
                                 CD1 + "ad" + CD2 + "后台管理" + CD3 +
                                 CD1 + "admin" + CD2 + "后台管理" + CD3 +
-                                CD1 + "user" + CD2 + "欢迎：" + session.getAttribute("username").toString() + CD3
+                                CD1 + "user/me" + CD2 + "欢迎：" + session.getAttribute("username").toString() + CD3
                 );
             } else {
                 out.print(
-                        CD1 + "logout" + CD2 + "退出" + CD3 + CD1 + "user" + CD2 + "欢迎：" + session.getAttribute("username").toString() + CD3
+                        CD1 + "logout" + CD2 + "退出" + CD3 + CD1 + "user/me" + CD2 + "欢迎：" + session.getAttribute("username").toString() + CD3
 
                 );
                 // model.addAttribute("login","<a href=\"login\">登陆</a>");

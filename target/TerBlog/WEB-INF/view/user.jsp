@@ -70,7 +70,7 @@
                 <div class="row row-bottom-padded-sm">
                     <div class="col-md-12">
                         <figure>
-                            <img src="${pageContext.request.contextPath}/user/images/profile_img.png" alt="Free HTML5 Wesbite Template by FreeHTML5.co">
+                            <img src="${pageContext.request.contextPath}/user/images/tx.jpg" alt="Free HTML5 Wesbite Template by FreeHTML5.co">
                         </figure>
                         <h1>${user.nickname}</h1>
                         <p style="text-align:center"><center>
