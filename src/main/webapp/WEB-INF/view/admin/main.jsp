@@ -122,6 +122,19 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">通知 <i class="caret"></i>
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a tabindex="-1" href="${pageContext.request.contextPath}/admin/NewInform">新建</a>
+                            </li>
+                            <li>
+                                <a tabindex="-1" href="${pageContext.request.contextPath}/admin/Inform">列表</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -139,23 +152,30 @@
                     <a href="${pageContext.request.contextPath}/admin/Article"><i class="icon-chevron-right"></i> 文章</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/NewArticle"><i class="icon-chevron-right"></i> 新建</a>
+                    <a href="${pageContext.request.contextPath}/admin/NewArticle"><i class="icon-chevron-right"></i> 　新建</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/Draft"><i class="icon-chevron-right"></i> 草稿</a>
+                    <a href="${pageContext.request.contextPath}/admin/Draft"><i class="icon-chevron-right"></i> 　草稿</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/Recycled"><i class="icon-chevron-right"></i> 回收站</a>
+                    <a href="${pageContext.request.contextPath}/admin/Recycled"><i class="icon-chevron-right"></i> 　回收站</a>
                 </li>
                 <li >
                     <a href="${pageContext.request.contextPath}/admin/User"><i class="icon-chevron-right"></i> 用户</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/NewUser"><i class="icon-chevron-right"></i> 新建</a>
+                    <a href="${pageContext.request.contextPath}/admin/NewUser"><i class="icon-chevron-right"></i> 　新建</a>
                 </li>
                 <li >
-                    <a href="${pageContext.request.contextPath}/admin/ForbiddenUser"><i class="icon-chevron-right"></i> 禁用</a>
+                    <a href="${pageContext.request.contextPath}/admin/ForbiddenUser"><i class="icon-chevron-right"></i> 　禁用</a>
                 </li>
+                <li>
+                    <a tabindex="-1" href="${pageContext.request.contextPath}/admin/Inform"><i class="icon-chevron-right"></i> 通知</a>
+                </li>
+                <li>
+                    <a tabindex="-1" href="${pageContext.request.contextPath}/admin/NewInform"><i class="icon-chevron-right"></i> 　新建</a>
+                </li>
+
 
 
 
@@ -165,8 +185,11 @@
         <div class="span10" id="content">
 
 
-                        <div class="alert alert-success">
-                            <button type="button" class="close" data-dismiss="alert">&times;</button>
-                            <h4>${inform.title} </h4>
-                            ${inform.content}</div>
+            <c:if test="${inform.title != null}">
+                <div class="alert alert-success">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h4>${inform.title} </h4>
+                        ${inform.content}</div>
+                </c:if>
+
 

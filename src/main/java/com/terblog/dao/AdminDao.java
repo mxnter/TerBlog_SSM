@@ -17,4 +17,17 @@ public interface AdminDao {
 
     public List<Inform> allinforma();
 
+    void InInform(String InformId);
+
+    void OutInform(String InformId);
+
+    void DeleteInform(String InformId);
+
+    void InNewInform(Inform inform);
+
+    void InAlterInform(Inform inform);
+
+    Inform InformById(String InformId);
+
+
 }

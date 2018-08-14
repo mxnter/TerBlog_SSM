@@ -435,7 +435,165 @@ public class AdminController {
 
 
 
-//    -------------------------------------------判断是否是未登陆，不是管理员
+//    -------------------------------------------通知
+
+    @RequestMapping(value = "Inform", method = RequestMethod.GET)
+    public String admin_Inform(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+        List<Inform> informs = adminService.allinforma();
+        model.addAttribute("informs", informs); // 传参数给前端
+
+        return "admin/mi";
+    }
+
+    @RequestMapping(value = "InInform", method = RequestMethod.GET)
+    public String admin_InInform(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+
+        adminService.InInform(request.getParameter("InformId"));
+
+        return "redirect:./Inform";
+    }
+
+
+    @RequestMapping(value = "OutInform", method = RequestMethod.GET)
+    public String admin_OutInform(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+
+        adminService.OutInform(request.getParameter("InformId"));
+
+        return "redirect:./Inform";
+    }
+
+
+    @RequestMapping(value = "DeleteInform", method = RequestMethod.GET)
+    public String admin_DeleteInform(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+
+        adminService.DeleteInform(request.getParameter("InformId"));
+
+        return "redirect:./Inform";
+    }
+
+
+    @RequestMapping(value = "NewInform", method = RequestMethod.GET)
+    public String admin_NewInform(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+
+
+
+        return "admin/newinform";
+
+
+    }
+
+    @RequestMapping(value = "InNewInform", method = RequestMethod.POST)
+    public String admin_InNewInform(Model model,Inform inform, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+        log.info("[输出数据] 查看文章------>" + inform);
+        Date date = new Date();
+        //最后的aa表示“上午”或“下午”    HH表示24小时制    如果换成hh表示12小时制
+        SimpleDateFormat sdate = new SimpleDateFormat("yyyy-MM-dd ");
+        SimpleDateFormat stime = new SimpleDateFormat("HH:mm:ss");
+        inform.setDate(sdate.format(date));
+        inform.setTime(stime.format(date));
+        log.info("[输出数据] 查看文章------>" + inform);
+
+        adminService.InNewInform(inform);
+
+
+        return "redirect:./Inform";
+
+
+    }
+
+    @RequestMapping(value = "AlterInform", method = RequestMethod.GET)
+    public String admin_AlterInform(Model model, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+
+        Inform inform = adminService.InformById(request.getParameter("InformId"));
+        model.addAttribute("inform",inform);
+
+
+
+        return "admin/alterinform";
+    }
+
+
+    @RequestMapping(value = "InAlterInform", method = RequestMethod.POST)
+    public String admin_InAlterInform(Model model,Inform inform, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        try {
+            if(session.getAttribute("isLogin").equals("n"))return "redirect:../login";
+            if (session.isNew() || session.getAttribute("administrator").equals("user")) return "redirect:../";
+        }catch (Exception e){
+            return "redirect:../login";
+        }
+        Date date = new Date();
+        //最后的aa表示“上午”或“下午”    HH表示24小时制    如果换成hh表示12小时制
+        SimpleDateFormat sdate = new SimpleDateFormat("yyyy-MM-dd ");
+        SimpleDateFormat stime = new SimpleDateFormat("HH:mm:ss");
+        log.info("[输出数据] 查看文章------>" + inform);
+        inform.setDate(sdate.format(date));
+        inform.setTime(stime.format(date));
+
+
+        adminService.InAlterInform(inform);
+
+        return "redirect:./Inform";
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }

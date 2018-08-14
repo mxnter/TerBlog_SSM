@@ -36,4 +36,27 @@ public class AdminImpl implements AdminService {
         return adminDao.allinforma();
     }
 
+    public void InInform(String InformId) {
+        adminDao.InInform(InformId);
+    }
+
+    public void OutInform(String InformId) {
+        adminDao.OutInform(InformId);
+    }
+
+    public void DeleteInform(String InformId) {
+        adminDao.DeleteInform(InformId);
+    }
+
+    public void InNewInform(Inform inform) {
+        adminDao.InNewInform(inform);
+    }
+
+    public void InAlterInform(Inform inform) {
+        adminDao.InAlterInform(inform);
+    }
+
+    public Inform InformById(String InformId) {
+       return adminDao.InformById(InformId);
+    }
 }

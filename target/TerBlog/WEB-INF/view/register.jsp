@@ -43,8 +43,8 @@
 <!-- content -->
 <div class="main-content-agile">
     <div class="sub-main-w3">
-        <form action="#" method="post">
-            <h2>TerBlog 注册 [未开放]</h2>
+        <form action="in" method="post" enctype="multipart/form-data" >
+            <h2>TerBlog 注册 [内部测试]</h2>
             <div class="form-style-agile">
                 <input placeholder="用户名" name="username" type="text" required="">
             </div>
@@ -64,13 +64,13 @@
                 <input placeholder="邀请码" name="c" type="text" required="">
             </div>
             <div class="form-style-agile">
-                <select class="category" required="">
-                    <option value="">男</option>
-                    <option value="">女</option>
+                <select class="category" required="" name="sex">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
                 </select>
             </div>
             <div class="form-style-agile">
-                <textarea name="Message" placeholder="个性签名" required=""></textarea>
+                <textarea  placeholder="个性签名" required="" id="signature" name="signature"></textarea>
             </div>
             <input type="submit" value="注册">
         </form>

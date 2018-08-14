@@ -11,13 +11,38 @@
   <component name="ChangeListManager">
     <list default="true" id="e943315c-90ab-4738-8f0f-787d75dd24b4" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/model/Inform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/model/Inform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TerBlog.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/dao/RegisterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/dao/RegisterDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/RegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/impl/RegisterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/service/impl/RegisterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/RegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/RegisterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/admin/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/RegisterDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/dao/RegisterDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/service/RegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/RegisterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/RegisterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RegisterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/RegisterMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,92 +72,87 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="63" column="67" lean-forward="true" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+            <state relative-caret-position="2431">
+              <caret line="143" column="34" selection-start-line="142" selection-start-column="7" selection-end-line="143" selection-end-column="34" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hint.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hint.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="70" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/user/js/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="71" column="7" selection-start-line="70" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="-751">
+              <caret line="511" selection-start-line="511" selection-end-line="511" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ma.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/ma.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="59" column="61" lean-forward="true" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="163" column="20" lean-forward="true" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
+            <state relative-caret-position="501">
+              <caret line="172" column="133" lean-forward="true" selection-start-line="172" selection-start-column="133" selection-end-line="172" selection-end-column="133" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193">
-              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="-561">
+              <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alteruser.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alteruser.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="93" column="36" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="39" />
+            <state relative-caret-position="548">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mu.jsp">
+      <file leaf-file-name="menu.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="-281">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -163,14 +183,15 @@
       <find>InDraftArticle</find>
       <find>DraftArticle</find>
       <find>ArticlesId</find>
-      <find>&lt;%@ page contentType=&quot;text/html;charset=UTF-8&quot; language=&quot;java&quot; %&gt;</find>
-      <find>\&lt;\%\@ page language\=\&quot;java\&quot; contentType\=\&quot;text\/html\; charset\=UTF\-8\&quot;\n         pageEncoding\=\&quot;UTF\-8\&quot; \%\&gt;</find>
-      <find>&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot; pageEncoding=&quot;UTF-8&quot; %&gt;</find>
-      <find>records per page</find>
+      <find />
+      <find />
+      <find />
+      <find />
       <find>data</find>
-      <find>if (session.isNew() || session.getAttribute(&quot;administrator&quot;).equals(&quot;user&quot;)) return &quot;redirect:./&quot;;</find>
+      <find />
       <find>session.getAttribute(&quot;administrator&quot;).equals(&quot;user&quot;)</find>
       <find>log.info</find>
+      <find>请</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,22 +207,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/IndexMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/details.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hint.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ma.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/details/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/admin.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/details.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ad/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/model/Index.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/model/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/MyFilter.java" />
@@ -217,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alterarticle.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/UserImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/UserService.java" />
@@ -225,18 +235,29 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/forbidden.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alteruser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newuser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RegisterMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newinform.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mi.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alterinform.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/model/Inform.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" />
       </list>
     </option>
   </component>
@@ -263,11 +284,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="734" />
-    <option name="y" value="84" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="429" />
+    <option name="y" value="91" />
+    <option name="width" value="1385" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,9 +296,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,6 +372,16 @@
               <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="terblog" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -413,9 +443,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="email&#9;PSI&#9;JAVA://javax.xml.registry.infomodel.EmailAddress" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../AndroidSdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -429,16 +461,7 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\ad" />
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\admin" />
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\static" />
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.terblog.controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.terblog.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -447,6 +470,15 @@
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\css" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\static\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.terblog.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\ad" />
+      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\admin" />
+      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\static" />
+      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -600,12 +632,13 @@
       <workItem from="1533860684030" duration="29185000" />
       <workItem from="1534040104466" duration="19488000" />
       <workItem from="1534121005103" duration="20550000" />
-      <workItem from="1534143281231" duration="10132000" />
+      <workItem from="1534143281231" duration="11944000" />
+      <workItem from="1534206769048" duration="9720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186672000" />
+    <option name="totallyTimeSpent" value="198204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -614,14 +647,14 @@
       <window_info anchor="bottom" id="Event Log" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.3293348" />
       <window_info anchor="right" id="Maven Projects" order="14" />
-      <window_info anchor="right" id="CDI" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="11" weight="0.32981133" />
       <window_info anchor="right" id="Flutter Outline" order="8" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="设计师" order="6" />
       <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="right" id="JSF" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="5" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -633,10 +666,10 @@
       <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="消息" order="9" weight="0.32715377" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.31079608" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.23227917" />
       <window_info anchor="right" id="控制板" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="12" />
@@ -645,10 +678,10 @@
       <window_info anchor="right" id="Flutter Inspector" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="检验" order="13" weight="0.3293348" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -667,148 +700,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="83" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/bootstrap/css/bootstrap-responsive.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="8" column="13514" selection-start-line="8" selection-start-column="13514" selection-end-line="8" selection-end-column="13514" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/draft.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="80" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="56" column="139" selection-start-line="56" selection-start-column="139" selection-end-line="56" selection-end-column="139" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/ArticleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/MyFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/UserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/article.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/recycled.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/forbidden.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="102" lean-forward="true" selection-start-line="60" selection-start-column="102" selection-end-line="60" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newuser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -840,24 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -868,44 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alterarticle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="179" selection-start-line="33" selection-start-column="160" selection-end-line="33" selection-end-column="179" />
         </state>
       </provider>
     </entry>
@@ -930,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -944,90 +784,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alteruser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="93" column="36" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="612">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        <state relative-caret-position="355">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="71" column="7" selection-start-line="70" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="467">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/dao/RegisterDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="163" column="20" lean-forward="true" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/ma.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="59" column="61" lean-forward="true" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+        <state relative-caret-position="406">
+          <caret line="46" column="17" selection-start-line="45" selection-end-line="49" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RegisterMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="63" column="67" lean-forward="true" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        <state relative-caret-position="289">
+          <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/RegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/RegisterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newuser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="95" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/xml/registry/infomodel/EmailAddress.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register/js/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="694" selection-start-line="694" selection-end-line="694" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register/js/jquery-2.1.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="3" column="10569" lean-forward="true" selection-start-line="3" selection-start-column="10569" selection-end-line="3" selection-end-column="10569" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/ma.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alterarticle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="69" column="164" selection-start-line="69" selection-start-column="137" selection-end-line="69" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alteruser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" selection-start-line="29" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/newinform.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="45" column="65" lean-forward="true" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/service/impl/AdminImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/mi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="82" column="37" lean-forward="true" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/alterinform.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/model/Inform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="34" selection-start-line="142" selection-start-column="7" selection-end-line="143" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hint.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/user/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="-561">
+          <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="172" column="133" lean-forward="true" selection-start-line="172" selection-start-column="133" selection-end-line="172" selection-end-column="133" />
         </state>
       </provider>
     </entry>

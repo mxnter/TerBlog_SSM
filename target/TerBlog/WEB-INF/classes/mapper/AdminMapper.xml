@@ -19,7 +19,7 @@
         select *
         from inform
         where id = (select max(id)
-                    from inform);
+                    from inform where type='1');
     </select>
 
     <select id="informamount" resultType="String">
@@ -31,6 +31,38 @@
         select *
         from inform
     </select>
+
+    <select id="InformById" resultType="com.terblog.model.Inform">
+        select *
+        from inform where id = #{InformId}
+    </select>
+
+
+    <!--启动通知-->
+    <update id="InInform" parameterType="com.terblog.model.Inform">
+        update inform set type = '1' where id = #{InformId}
+    </update>
+    <!--停用通知-->
+    <update id="OutInform" parameterType="com.terblog.model.Inform">
+        update inform set type = '0' where id = #{InformId}
+    </update>
+
+    <!--删除通知-->
+    <delete id="DeleteInform" parameterType="com.terblog.model.Inform">
+        delete from inform where id = #{InformId} and type = '0'
+    </delete>
+
+
+    <insert id="InNewInform" parameterType="com.terblog.model.Inform">
+        insert into  inform (title,content,date,time,type)
+        values (#{title},#{content},#{date},#{time},#{type})
+
+    </insert>
+
+    <update id="InAlterInform" parameterType="com.terblog.model.Inform">
+        update inform set title= #{title} , content= #{content},date = #{date},time = #{time},type = #{type}  where id = #{id}
+    </update>
+
 
 
 </mapper>

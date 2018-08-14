@@ -55,6 +55,10 @@
         <servlet-name>default</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:application.xml</param-value>

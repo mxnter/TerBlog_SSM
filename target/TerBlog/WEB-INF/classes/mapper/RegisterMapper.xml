@@ -9,4 +9,14 @@
     <select id="zc" resultType="com.terblog.model.Register">
         select * from user where username = #{username} and password = #{password};
     </select>
+
+
+
+
+    <insert id="Register" parameterType="com.terblog.model.User">
+        insert into  user (username,password,nickname,headportrait,registrationdate,administrator,sex,email,phonenumber,signature,state)
+        values (#{username},#{password},#{nickname},#{headportrait},#{registrationdate},'user',#{sex},#{email},#{phonenumber},#{signature},'0')
+
+    </insert>
+
 </mapper>

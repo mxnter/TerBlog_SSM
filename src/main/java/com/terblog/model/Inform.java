@@ -6,7 +6,7 @@ public class Inform {
     private String content;
     private String date;
     private String time;
-    private int type;
+    private String type;
 
 
     public int getId() {
@@ -49,11 +49,11 @@ public class Inform {
         this.time = time;
     }
 
-    public int getType() {
+    public String getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(String type) {
         this.type = type;
     }
 
