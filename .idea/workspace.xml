@@ -9,178 +9,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" description="    &lt;!--移出回收站--&gt;&#10;    &lt;update id=&quot;NoRecycledArticle..." line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e943315c-90ab-4738-8f0f-787d75dd24b4" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="e943315c-90ab-4738-8f0f-787d75dd24b4" name="默认的" comment="更新项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/terblog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/IndexMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/IndexMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hint.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hint.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/assets/DT_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/assets/DT_bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/assets/DT_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/assets/DT_bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/assets/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/assets/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/assets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/assets/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/images/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/images/sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-datepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen-sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen-sprite@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen-sprite@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen.jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/ckeditor/adapters/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/ckeditor/adapters/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/ckeditor/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_asc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_both.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_desc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/js/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/easypiechart/jquery.easy-pie-chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/easypiechart/jquery.easy-pie-chart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/easypiechart/jquery.easy-pie-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/easypiechart/jquery.easy-pie-chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.time.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/fullcalendar/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/fullcalendar/fullcalendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/fullcalendar/gcal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/fullcalendar/gcal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jGrowl/jquery.jgrowl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jGrowl/jquery.jgrowl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jGrowl/jquery.jgrowl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jGrowl/jquery.jgrowl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery-1.9.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery-1.9.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery-1.9.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery-ui-1.10.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery-ui-1.10.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery.knob.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery.uniform.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery.uniform.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/modernizr-2.6.2-respond-1.1.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/morris/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/morris/morris.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/morris/morris.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/morris/morris.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/raphael-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/raphael-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/tinymce/js/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/tinymce/js/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/uniform.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/uniform.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wizard/jquery.bootstrap.wizard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wizard/jquery.bootstrap.wizard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wysiwyg/bootstrap-wysihtml5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wysiwyg/bootstrap-wysihtml5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wysiwyg/bootstrap-wysihtml5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wysiwyg/bootstrap-wysihtml5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wysiwyg/wysihtml5-0.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wysiwyg/wysihtml5-0.3.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/com/terblog/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/IndexMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/mapper/IndexMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/classes/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/admin/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/cp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/cp.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/hint.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/hint.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/TerBlog/WEB-INF/view/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/assets/DT_bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/assets/DT_bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/assets/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/assets/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/bootstrap/css/bootstrap-responsive.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/bootstrap/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/bootstrap/img/glyphicons-halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/images/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/ckeditor/adapters/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/ckeditor/ckeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datatables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datatables/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datatables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datatables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datatables/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datatables/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/easypiechart/jquery.easy-pie-chart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/easypiechart/jquery.easy-pie-chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/flot/jquery.flot.categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/fullcalendar/fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/fullcalendar/fullcalendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/fullcalendar/gcal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jGrowl/jquery.jgrowl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jGrowl/jquery.jgrowl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jquery-1.9.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jquery-1.9.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jquery-ui-1.10.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jquery.knob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/jquery.uniform.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/morris/morris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/morris/morris.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/raphael-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/tinymce/js/tinymce/tinymce.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/uniform.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/wizard/jquery.bootstrap.wizard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/wysiwyg/bootstrap-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/wysiwyg/bootstrap-wysihtml5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TerBlog/admin/vendors/wysiwyg/wysihtml5-0.3.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/AdController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/ArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/RegisterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/AdminDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/ArticleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/IndexDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/LoginDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/RegisterDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/Inform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/ArticleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/IndexService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/RegisterService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/AdminImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/ArticleImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/IndexImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/LoginImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/RegisterImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/terblog/service/impl/UserImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/IndexMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/IndexMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -212,15 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="das://f6031c20-39ff-42ca-9c70-b200d84adb62/schema/blog/table/article">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -241,8 +63,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="129" column="51" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
+            <state relative-caret-position="380">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-553">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -394,8 +225,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/terblog/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/IndexMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -466,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -473,11 +305,6 @@
             <path>
               <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
@@ -588,16 +415,10 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TerBlog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TerBlog" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -792,17 +613,26 @@
       <workItem from="1561197032989" duration="1494000" />
       <workItem from="1561198530946" duration="1393000" />
       <workItem from="1561286583597" duration="17000" />
+      <workItem from="1562080057811" duration="118000" />
     </task>
+    <task id="LOCAL-00001" summary="更新项目">
+      <created>1562080175028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562080175028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256832000" />
+    <option name="totallyTimeSpent" value="256950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -849,11 +679,17 @@
       <window_info anchor="right" id="Bean Validation" order="13" />
       <window_info anchor="right" id="Maven Projects" order="14" />
       <window_info anchor="right" id="调色板" order="15" />
-      <window_info active="true" anchor="right" id="Maven" order="16" visible="true" weight="0.17270789" />
+      <window_info anchor="right" id="Maven" order="16" visible="true" weight="0.17270789" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="更新项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新项目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/admin.jsp">
@@ -1031,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terblog/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1167,10 +996,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="129" column="51" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
+        <state relative-caret-position="380">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
