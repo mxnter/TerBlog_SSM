@@ -33,6 +33,36 @@
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/weadmin.css">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"/>
+
+    <script type="text/javascript">
+        var password;
+
+        function password1t() {
+            var password1 = document.getElementById("password").value;
+            var reg = /^.{6,}$/;
+            if( password1 == null || password1 == ""||password1 == undefined ){
+                document.getElementById("ts").innerHTML="密码不能为空";
+            }else if(!reg.test(password1)){
+                document.getElementById("ts").innerHTML="请输入一个大于6位的密码";
+            }else{
+                password=password1;
+                document.getElementById("ts").innerHTML="";
+
+            }
+        }
+        function password2t() {
+            var password2 = document.getElementById("affirmpassword").value;
+            if( password2 == null || password2 == ""||password2 == undefined ){
+                document.getElementById("ts").innerHTML="确认密码不能为空";
+            }else if(password2 != password){
+                document.getElementById("ts").innerHTML="两次密码不一致";
+            }else{
+                document.getElementById("ts").innerHTML="";
+            }
+        }
+
+    </script>
 
 </head>
 <body background="https://loswkl-1252650524.cos.ap-beijing.myqcloud.com/WL/bj.png">
@@ -45,14 +75,14 @@
         <input type="text" placeholder="用户名" name="username" lay-verify="required" class="layui-input"
                value="<%=session.getAttribute("username")%>" readonly="readonly">
         <hr class="hr15">
-        <input lay-verify="required" type="password" placeholder="密码" name="password" class="layui-input">
+        <input lay-verify="required" type="password" placeholder="密码" name="password" id="password" class="layui-input" onBlur="password1t()" >
         <hr class="hr15">
-        <input lay-verify="required" type="password" placeholder="确认密码" name="affirmpassword" class="layui-input">
+        <input lay-verify="required" type="password" placeholder="确认密码" name="affirmpassword" id="affirmpassword" class="layui-input" onBlur="password2t()">
         <hr class="hr15">
         <input class="loginin" value="修改" lay-submit lay-filter="login" style="width:100%;" type="submit">
         <hr class="hr15">
         <div>
-            <center><font color="red"> ${msg}</font></center>
+            <center><font color="red"> ${msg} <p id="ts"></p></font></center>
         </div>
     </form>
 </div>
@@ -60,51 +90,3 @@
 </body>
 </html>
 
-
-﻿ <!--<!DOCTYPE html>
-<html>
-<head>
-<title>TerBlog - 登陆界面</title>
-<meta name="keywords" content="TerBlog - 登陆界面" />
-<meta name="description" content="TerBlog - 登陆界面" />
-<meta charset="utf-8">
-<link href="${pageContext.request.contextPath}/css/home.css?v=2" rel="stylesheet" type="text/css" />
-</head>
-<body background="https://loswkl-1252650524.cos.ap-beijing.myqcloud.com/WL/bj.png" >
-<div class="container">
-<div class="register-box">
-<div class="reg-slogan">TerBlog - 登陆界面</div>
-<div class="reg-form" id="js-form-mobile"> <br>
-<br>
-<center>
-<form id="loginform" action="login" enctype="multipart/form-data" method="post">
-<h2>
-用户名：<input type="text" placeholder="用户名" name="username"><br><br>
-密　码：<input type="text" name="password" placeholder="密码"><br><br>
-<input type="submit" value="登陆" >
-</h2>
-</form>
-<br>
-<br>
-<h2>${param.msg}</h2>
-</center>
-<div>
-
-
-</div>
-</div>
-<div class="footer">
-<font size="2" face="华文细黑">
-
-
-<br>Copyright © 2016-2018 Mxnter Group </font>
-</div>
-</div>
-<!--<div class="footer">
-<p>Copyright © 2016-2017 Loswkl Group | WeChat：loswkl </p>
-</div>/images/bj.png
-
-</div>
-
-</body>
-</html>-->

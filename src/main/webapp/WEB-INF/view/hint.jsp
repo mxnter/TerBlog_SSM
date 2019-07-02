@@ -32,7 +32,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/weadmin.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/weadmin.css">    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"/>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
 
 </head>
@@ -43,7 +43,7 @@
     <div id="darkbannerwrap"></div>
 
     <form>
-        <center><h1><font color="red"> ${msg}</font></h1></center>
+        <center><h3><font color="red"> ${msg}</font></h3></center>
         <hr class="hr15">
         <input class="loginin" value="返回上一页" style="width:100%;" type="button" onclick="javascript:history.back(-1)">
         <hr class="hr15">

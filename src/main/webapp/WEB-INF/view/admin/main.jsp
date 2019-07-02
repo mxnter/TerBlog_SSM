@@ -21,6 +21,7 @@
     <link href="${pageContext.request.contextPath}/admin/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
     <link href="${pageContext.request.contextPath}/admin/vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
     <link href="${pageContext.request.contextPath}/admin/assets/styles.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"/>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -53,7 +54,7 @@
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a tabindex="-1" href="${pageContext.request.contextPath}/login">退出</a>
+                                <a tabindex="-1" href="${pageContext.request.contextPath}/logout">退出</a>
                             </li>
                         </ul>
                     </li>

@@ -34,17 +34,38 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/font.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/weadmin.css">
 
+
+    <script type="text/javascript">
+        function usernamet() {
+            var usernaem = document.getElementById("username").value;
+            if( usernaem == null || usernaem == ""|| usernaem == undefined ){
+                document.getElementById("ts").innerHTML="用户名不能为空";
+            }else{
+                document.getElementById("ts").innerHTML="";
+            }
+
+
+        }
+        function passwordt() {
+            var password = document.getElementById("password").value;
+            if( password == null || password == ""||password == undefined ){
+                document.getElementById("ts").innerHTML="密码不能为空";
+            }else{
+                document.getElementById("ts").innerHTML="";
+            }
+        }
+
+    </script>
 </head>
 <body background="https://loswkl-1252650524.cos.ap-beijing.myqcloud.com/WL/bj.png">
 
 <div class="login">
     <div class="message">TerBlog - 登陆系统</div>
     <div id="darkbannerwrap"></div>
-
     <form id="loginform" action="login" enctype="multipart/form-data" method="post">
-        <input type="text" placeholder="用户名" name="username" lay-verify="required" class="layui-input">
+        <input type="text" placeholder="用户名" id="username" name="username" lay-verify="required" class="layui-input" onBlur="usernamet()" >
         <hr class="hr15">
-        <input lay-verify="required" type="password" placeholder="密码" name="password" class="layui-input">
+        <input lay-verify="required" type="password" id="password" placeholder="密码" name="password" class="layui-input" onBlur="passwordt()">
         <hr class="hr15">
         <input class="loginin" value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
         <hr class="hr15">
@@ -52,7 +73,7 @@
         <hr class="hr15">
         <a href="${pageContext.request.contextPath}/user/forget">忘记密码</a>
         <div>
-            <center><font color="red"> ${msg}</font></center>
+            <center><font color="red"> ${msg} <p id="ts"></p></font></center>
         </div>
     </form>
 </div>

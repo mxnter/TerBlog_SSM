@@ -87,7 +87,7 @@ public class UserController {
     @RequestMapping(value = "forget", method = RequestMethod.GET)
     public String user_forget(Model model, HttpServletRequest request) {
 
-        String msg = "未开启，忘记密码功能！";
+        String msg = "如果您忘记了密码，请联系管理员 terblog@mter.xyz";
         model.addAttribute("msg", msg);
         return "hint";
 
