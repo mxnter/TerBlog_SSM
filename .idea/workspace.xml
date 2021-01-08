@@ -2,20 +2,115 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="TerBlog:war exploded" />
+      <artifact name="TerBlog" />
     </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" description="    &lt;!--移出回收站--&gt;&#10;    &lt;update id=&quot;NoRecycledArticle..." line="28" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e943315c-90ab-4738-8f0f-787d75dd24b4" name="默认的" comment="更新项目">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TerBlog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/terblog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aspectjweaver-1.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-httpclient-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ezmorph-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpclient-4.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/httpcore-4.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-lib-2.3-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mybatis-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mybatis-spring-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/org.apache.commons.pool-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-web-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-4.1.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/standard-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/assets/DT_bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/assets/DT_bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/assets/DT_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/assets/DT_bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/assets/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/assets/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/assets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/assets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/images/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen-sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen-sprite@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen-sprite@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/chosen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/ckeditor/adapters/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/ckeditor/adapters/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/ckeditor/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_both.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/images/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datatables/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/easypiechart/jquery.easy-pie-chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/easypiechart/jquery.easy-pie-chart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/easypiechart/jquery.easy-pie-chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/easypiechart/jquery.easy-pie-chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/flot/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/flot/jquery.flot.time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/fullcalendar/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/fullcalendar/fullcalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/fullcalendar/gcal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/fullcalendar/gcal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jGrowl/jquery.jgrowl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jGrowl/jquery.jgrowl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jGrowl/jquery.jgrowl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jGrowl/jquery.jgrowl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery-1.9.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery-1.9.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery-1.9.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery-ui-1.10.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery-ui-1.10.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery.knob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/jquery.uniform.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/jquery.uniform.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/modernizr-2.6.2-respond-1.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/morris/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/morris/morris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/morris/morris.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/morris/morris.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/raphael-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/raphael-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/tinymce/js/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/tinymce/js/tinymce/tinymce.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/uniform.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/uniform.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wizard/jquery.bootstrap.wizard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wizard/jquery.bootstrap.wizard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wysiwyg/bootstrap-wysihtml5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wysiwyg/bootstrap-wysihtml5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wysiwyg/bootstrap-wysihtml5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wysiwyg/bootstrap-wysihtml5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin1/vendors/wysiwyg/wysihtml5-0.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/vendors/wysiwyg/wysihtml5-0.3.0.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,13 +332,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -261,6 +349,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1mlq1Girri9JzS5dqvn0EsQpmKA" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -421,36 +510,41 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="email&#9;PSI&#9;JAVA://javax.xml.registry.infomodel.EmailAddress" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../AndroidSdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546498986782" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/TerBlog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.40574712" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.terblog.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User Project\TerBlog_SSM\Database" />
+      <recent name="D:\User Project\TerBlog_SSM\lib" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\user\images" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\admin" />
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view" />
-      <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\css" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.terblog.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view\ad" />
@@ -458,22 +552,30 @@
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\static" />
       <recent name="G:\Learn\GitHub\TerBlog\src\main\webapp\WEB-INF\view" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.terblog.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.terblog.controller" />
+    </key>
   </component>
   <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="应用程序">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -483,6 +585,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -492,8 +595,9 @@
     </configuration>
     <configuration name="Tom" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF8 -Dsun.jnu.encoding=UTF8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="TerBlog:war exploded">
+        <artifact name="TerBlog">
           <settings>
             <option name="CONTEXT_PATH" value="/TerBlog" />
           </settings>
@@ -542,6 +646,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -560,11 +679,12 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="TerBlog:war exploded" />
+          <artifact name="TerBlog" />
         </option>
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -614,6 +734,7 @@
       <workItem from="1561198530946" duration="1393000" />
       <workItem from="1561286583597" duration="17000" />
       <workItem from="1562080057811" duration="118000" />
+      <workItem from="1610078314058" duration="3137000" />
     </task>
     <task id="LOCAL-00001" summary="更新项目">
       <created>1562080175028</created>
@@ -683,7 +804,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
